@@ -1,0 +1,45 @@
+C:\Users\user\Desktop\Ћвзсвл\backup\data
+C:\Users\user\Desktop\Ћвзсвл\data\1.bat
+C:\Users\user\Desktop\Ћвзсвл\data\2.bat
+C:\Users\user\Desktop\Ћвзсвл\data\3.bat
+C:\Users\user\Desktop\Ћвзсвл\data\ЋвзҐв ь10.docx
+C:\Users\user\Desktop\Ћвзсвл\1.bat
+C:\Users\user\Desktop\Ћвзсвл\2.bat
+C:\Users\user\Desktop\Ћвзсвл\3.bat
+C:\Users\user\Desktop\Ћвзсвл\4.bat
+C:\Users\user\Desktop\Ћвзсвл\5.bat
+C:\Users\user\Desktop\Ћвзсвл\6.bat
+C:\Users\user\Desktop\Ћвзсвл\6.but
+C:\Users\user\Desktop\Ћвзсвл\7.bat
+C:\Users\user\Desktop\Ћвзсвл\8.bat
+C:\Users\user\Desktop\Ћвзсвл\paths.txt
+C:\Users\user\Desktop\Ћвзсвл\ЋвзҐв ь10.docx
+C:\Users\user\Desktop\Ћвзсвл\backup\1.bat
+C:\Users\user\Desktop\Ћвзсвл\backup\2.bat
+C:\Users\user\Desktop\Ћвзсвл\backup\3.bat
+C:\Users\user\Desktop\Ћвзсвл\backup\data
+C:\Users\user\Desktop\Ћвзсвл\backup\ЋвзҐв ь10.docx
+C:\Users\user\Desktop\Ћвзсвл\data\1.bat
+C:\Users\user\Desktop\Ћвзсвл\data\2.bat
+C:\Users\user\Desktop\Ћвзсвл\data\3.bat
+C:\Users\user\Desktop\Ћвзсвл\data\ЋвзҐв ь10.docx
+C:\Users\user\Desktop\Отчёты\1.bat
+C:\Users\user\Desktop\Отчёты\2.bat
+C:\Users\user\Desktop\Отчёты\3.bat
+C:\Users\user\Desktop\Отчёты\4.bat
+C:\Users\user\Desktop\Отчёты\5.bat
+C:\Users\user\Desktop\Отчёты\6.bat
+C:\Users\user\Desktop\Отчёты\6.but
+C:\Users\user\Desktop\Отчёты\7.bat
+C:\Users\user\Desktop\Отчёты\8.bat
+C:\Users\user\Desktop\Отчёты\paths.txt
+C:\Users\user\Desktop\Отчёты\Отчет №10.docx
+C:\Users\user\Desktop\Отчёты\backup\1.bat
+C:\Users\user\Desktop\Отчёты\backup\2.bat
+C:\Users\user\Desktop\Отчёты\backup\3.bat
+C:\Users\user\Desktop\Отчёты\backup\data
+C:\Users\user\Desktop\Отчёты\backup\Отчет №10.docx
+C:\Users\user\Desktop\Отчёты\data\1.bat
+C:\Users\user\Desktop\Отчёты\data\2.bat
+C:\Users\user\Desktop\Отчёты\data\3.bat
+C:\Users\user\Desktop\Отчёты\data\Отчет №10.docx
