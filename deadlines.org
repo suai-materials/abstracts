@@ -1,0 +1,11 @@
+#+TITLE: Дедлайны
+#+AUTHOR: Панков Василий
+
+*** TODO Л/р по архивам(ОСиС)
+    DEADLINE: <2022-03-23 Wed>
+*** TODO Л/р по C#
+    DEADLINE: <2022-03-23 Wed>
+*** TODO ТЗ
+    DEADLINE: <2022-03-24 Thu>
+    
+    
