@@ -739,9 +739,28 @@ CREATE TABLE STUDENT(ID INTEGER, SURNAME VARCHAR(60))
 *** UNIQUE
 Уникальное
 Кандидаты на ключевое поле
+Можно использовать для всей таблицы, просто прописав это в к онце таблицы.
 *** CHECK
 Установка условий назначений
 
 #+begin_src sql
 CREATE TABLE STUDENT(ID INTEGER PRIMARY KEY, SURNAME VARCHAR(25) NOT NULL, STUIPEND INTEGER CHECK(STIPEND > 200)) 
 #+end_src
+
+*** DEFAULT 
+Значение по умолчание
+
+#+begin_src sql
+CREATE TABLE STUDENT(ID INTEGER PRIMARY KEY, SURNAME VARCHAR(25) NOT NULL, STUIPEND INTEGER CHECK(STIPEND > 200), CITY CHAR(15) DEFAULT 'Москва') 
+#+end_src
+
+*** PRIMARY KEY
+
+** Индексы 
+
+#+begin_src sql
+CREATE INDEX INDEX_NAME ON TABLE_NAME(NAME_COLUMN)
+#+end_src
+Удаление индекса не удаляет данные из таблицы
+
+** Изменение структуры существующей таблицы(ALDER)
