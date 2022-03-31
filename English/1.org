@@ -1,9 +1,9 @@
 #+STARTUP: unfold
-#+AUTHOR: ������ ����
-#+TITLE: ���������� ����
+#+AUTHOR: Панков Вася
+#+TITLE: Английский язык
 
 * 21.03
-** ������ �� �������:
+** ������ �� �������:
 1. Horrods.
 2. You can see the old masterpieses in th National Gallery in Trafalgar Square
 3. London pub
@@ -12,7 +12,7 @@
 6. 
 7. Yes
 8. People visit becuase, becuase 
-** ��������� ��� �������:
+** ��������� ��� �������:
 Have you been in the Kolpino? Difinitely not, but I live here. Boring old buildings, gloomy passers and nothing more you can see here. 
 I could say it, but I won't. 
 There is also have something good. About this I am telling for you. One of the most beautiful places is the embankment of the Izhora river.
@@ -23,3 +23,70 @@ If you want more intertaiment, you can absolutely free work in the Izhora Factor
 One of the most points of interesting is great prison Crosses.
 
 As you can understand, this is a beautiful city that everyone should come to.
+
+
+* The pronouns - Местоимения
+1. Classification
+   1. Личные
+   2. Притяжательные(his, her, our...)
+   3. Возвратные(myself, themself, -self)
+   4. 
+   5. Неопределённые(some, any и их производные)
+   6. Вопросительные(Who, Where, How, What...)
+   7. Отрицательные(No, none)
+   8. Определяющиеся(every-(everybody), all, other, another...)
+   9. Взаимные(ich-other, one-another)
+| Personal                  |                            | Possesive                         |                        | Reflexive      |
+| Numonative(именной падеж) | Objective(объектный падеж) | Possessive(Зависимая, нужно сущ.) | Absolute(не зависимое) | -              |
+|---------------------------+----------------------------+-----------------------------------+------------------------+----------------|
+| I                         | me                         | my                                | mine                   | myself         |
+| You                       | you                        | your                              | yours                  | yourself       |
+| He                        | him                        | his                               | his                    | himself        |
+| She                       | her                        | her                               | hers                   | herself        |
+| It                        | it                         | its                               | its                    | itself         |
+| We                        | us                         | our                               | ours                   | ourselves      |
+| You(Вы)                   | you                        | your                              | yours                  | yourselves     |
+| They                      | them                       | their                             | theirs                 | themselves     |
+| I like this book          | Give me this book, please  | This is my book                   | This is bok is mine    | Do it yourself |
+
+1. Особенности использования
+   1. We use objective pronouns after "to be", "than" and in answers.(2 colomn in the table)
+   Who is it? It's __me/her/him__.
+   2. We use Possesive pronauns often before: parts of the body, personal things.
+
+Ex. 1
+1. my; yours
+2. his; hers
+3. his
+4. his; its
+5. his; mine
+6. my
+
+Ex. 2
+1. her
+2. it
+3. him
+4. them
+5. him
+6. us
+
+1. Do these shoes belong to your husband?
+   These shoes belonh to your husband.
+   These are his shoes. These shoes are his.
+2. Will this new flat belong to them?
+   This new flat will belong to them.
+   This is their new flat.
+   This new flat is theirs.
+3. This umbrella doesn't belong to you, ?
+   This isn't your umbrella, is it.
+   This umbrella isn't yours, is it.
+
+4. These books belong to us, don't they? 
+   These is our books?
+
+Ex.4
+
+hers
+his
+her
+
