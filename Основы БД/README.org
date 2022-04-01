@@ -764,3 +764,35 @@ CREATE INDEX INDEX_NAME ON TABLE_NAME(NAME_COLUMN)
 Удаление индекса не удаляет данные из таблицы
 
 ** Изменение структуры существующей таблицы(ALDER)
+Изменение структуры существующей таблицы
+
+#+begin_src sql
+ALTER TABLE TABLE_NAMEE ADD COLUMN COLUMN_NAMEE VARCHAR(20)
+#+end_src
+
+
+Изменение типа данных для колоннок:
+
+#+begin_src sql
+ALTER TABLE TABLEname ALTER COLUMN COLUMNname TYPE(SIZE)
+#+end_src
+
+Удаление колонки:
+
+#+begin_src sql
+ALTER TABLE TABLEname DROP COLUMN COLUMNname
+#+end_src
+
+Для добавление внешних ключей:
+
+
+** Удаление таблицы
+
+#+begin_src sql
+DROP TABLE NAMETABLE
+#+end_src
+
+
+#+begin_src sql
+CREATE TABLE ТИПЫ_КРЕДИТНЫХ_КАРТ(Код_кредитной_карты COUNTER(1, 1) PRIMARY KEY, Название_карты VARCHAR(20));
+#+end_src
