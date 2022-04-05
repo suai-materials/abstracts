@@ -103,3 +103,38 @@ pacstrap /mnt base linux linux-firmware
 
 #+DOWNLOADED: screenshot @ 2022-04-06 00:23:40
 [[file:images/20220406-002340_screenshot.png]]
+
+** Первоначальная настройка
+Фактически система уже есть, но нужна первоначальная настройка, без которой система будет работать адекватно.
+
+- Fstab
+  Это нам необходимо для корректной индефикации дисков по их UUID
+  #+begin_src shell
+  genfstab -U /mnt >> /mnt/etc/fstab
+  #+end_src
+
+Теперь же нам необходимо сделать вход в нашу установленную систему:
+
+#+begin_src shell
+arch-chroot /mnt
+#+end_src
+
+Фактически мы зайдём в систему под root. 
+И я считаю это очень хорошей возможностью так как это даёт возможность восстановки пароля или восстановления системы, например из-за того что поставил абсолютно все файлы для чтения. 
+Также это очень хорошо, для администирования.
+
+
+#+DOWNLOADED: screenshot @ 2022-04-06 00:41:20
+[[file:images/20220406-004120_screenshot.png]]
+
+
+*** Часовой пояс
+
+#+begin_src shell
+ln -sf /usr/share/zoneinfo/Russia/Moscow /etc/localtime
+hwclock --systohc
+#+end_src
+
+*** Локализация
+
+я устал, ну там блин есть русская документация:) : https://wiki.archlinux.org/title/installation_guide_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)
