@@ -88,72 +88,89 @@ Ex.4
 
 hers
 his
+
+mine
+hers
 her
 
+your 
+mine
 
-
-* The pronouns - Местоимения
-1. Classification
-   1. Личные
-   2. Притяжательные(his, her, our...)
-   3. Возвратные(myself, themself, -self)
-   4. 
-   5. Неопределённые(some, any и их производные)
-   6. Вопросительные(Who, Where, How, What...)
-   7. Отрицательные(No, none)
-   8. Определяющиеся(every-(everybody), all, other, another...)
-   9. Взаимные(ich-other, one-another)
-| Personal                  |                            | Possesive                         |                        | Reflexive      |
-| Numonative(именной падеж) | Objective(объектный падеж) | Possessive(Зависимая, нужно сущ.) | Absolute(не зависимое) | -              |
-|---------------------------+----------------------------+-----------------------------------+------------------------+----------------|
-| I                         | me                         | my                                | mine                   | myself         |
-| You                       | you                        | your                              | yours                  | yourself       |
-| He                        | him                        | his                               | his                    | himself        |
-| She                       | her                        | her                               | hers                   | herself        |
-| It                        | it                         | its                               | its                    | itself         |
-| We                        | us                         | our                               | ours                   | ourselves      |
-| You(Вы)                   | you                        | your                              | yours                  | yourselves     |
-| They                      | them                       | their                             | theirs                 | themselves     |
-| I like this book          | Give me this book, please  | This is my book                   | This is bok is mine    | Do it yourself |
-
-1. Особенности использования
-   1. We use objective pronouns after "to be", "than" and in answers.(2 colomn in the table)
-   Who is it? It's __me/her/him__.
-   2. We use Possesive pronauns often before: parts of the body, personal things.
-
-Ex. 1
-1. my; yours
-2. his; hers
-3. his
-4. his; its
-5. his; mine
-6. my
-
-Ex. 2
-1. her
-2. it
-3. him
-4. them
-5. him
-6. us
-
-1. Do these shoes belong to your husband?
-   These shoes belonh to your husband.
-   These are his shoes. These shoes are his.
-2. Will this new flat belong to them?
-   This new flat will belong to them.
-   This is their new flat.
-   This new flat is theirs.
-3. This umbrella doesn't belong to you, ?
-   This isn't your umbrella, is it.
-   This umbrella isn't yours, is it.
-
-4. These books belong to us, don't they? 
-   These is our books?
-
-Ex.4
-
-hers
 his
 her
+
+her
+
+Their
+
+hers
+
+
+
+Ex. 5 
+
+his
+
+his
+her
+
+mine
+
+Their
+
+yours
+our
+
+your
+
+him
+
+it
+
+their
+hers
+theirs
+
+their
+
+her
+
+my
+
+
+Ex. 6
+
+Mr Brown's is in the garage, and our is in front of the house.
+
+Yesterday they took ours magazines and left their.
+
+This suitcase is not mine, is their.
+
+Her parents live in the center of city, and his outskirts.
+
+I know your address, but I dont know their.
+
+This my opinion, I see, that it is different of yours.
+
+This is yours notebook, but Where's mine?
+
+She takes my hands in yours.
+
+He must have mixed up the keys and took the neighbor's key instead of his.
+
+Test example:
+
+1. c
+2. a
+3. b
+4. b
+5. d
+6. b
+7. c
+8. c
+9. b
+10. b
+11. d
+12. c
+13. d
 
