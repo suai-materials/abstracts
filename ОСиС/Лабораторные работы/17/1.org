@@ -75,8 +75,20 @@ Terminal:
       #+DOWNLOADED: screenshot @ 2022-04-12 22:13:26
       [[file:images/20220412-221326_screenshot.png]]
    4. внутри каталога catalog2 создать файлы file3 и file4 , каталог catalog3
+      #+DOWNLOADED: screenshot @ 2022-04-12 22:44:41
+      [[file:images/20220412-224441_screenshot.png]]
+
       #+DOWNLOADED: screenshot @ 2022-04-12 22:13:00
       [[file:images/20220412-221300_screenshot.png]]
    5. внутри каталога catalog3 создать файл file5, жесткую ссылку на файл file1, жесткую ссылку на каталог catalog2.
+      #+DOWNLOADED: screenshot @ 2022-04-12 22:32:47
+      [[file:images/20220412-223247_screenshot.png]]
+      На каталог, жёсткие ссылки нельзя делать.
+   6. создать в каталоге lab1 символичесткую ссылку s_link на файл file5
+      #+DOWNLOADED: screenshot @ 2022-04-12 22:43:46
+      [[file:images/20220412-224346_screenshot.png]]
+4. Запустить программу MC (Midnight Commander):
+#+DOWNLOADED: screenshot @ 2022-04-12 22:46:50
+[[file:images/20220412-224650_screenshot.png]]
 
-   6. создать в каталоге lab1 символичесткую ссылку s_link на файл file
+6. Составить список вопросов (с ответами) по изученной теме.
