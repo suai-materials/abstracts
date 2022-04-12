@@ -68,20 +68,15 @@ Terminal:
    1. в домашнем каталоге создать каталог inform
       #+DOWNLOADED: screenshot @ 2022-04-12 22:07:23
       [[file:images/20220412-220723_screenshot.png]]
-
-
    2. перейти в каталог и inform создать в нем каталог lab1
       #+DOWNLOADED: screenshot @ 2022-04-12 22:08:19
       [[file:images/20220412-220819_screenshot.png]]
-
    3. внутри каталога lab1 создать каталог catalog1, файл filn le1(например, используя команду echo), каталог catalog2. Перейти в каталог catalog2.
       #+DOWNLOADED: screenshot @ 2022-04-12 22:13:26
       [[file:images/20220412-221326_screenshot.png]]
-
    4. внутри каталога catalog2 создать файлы file3 и file4 , каталог catalog3
       #+DOWNLOADED: screenshot @ 2022-04-12 22:13:00
       [[file:images/20220412-221300_screenshot.png]]
-
    5. внутри каталога catalog3 создать файл file5, жесткую ссылку на файл file1, жесткую ссылку на каталог catalog2.
 
    6. создать в каталоге lab1 символичесткую ссылку s_link на файл file
