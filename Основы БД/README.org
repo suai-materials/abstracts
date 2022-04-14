@@ -796,3 +796,40 @@ DROP TABLE NAMETABLE
 #+begin_src sql
 CREATE TABLE ТИПЫ_КРЕДИТНЫХ_КАРТ(Код_кредитной_карты COUNTER(1, 1) PRIMARY KEY, Название_карты VARCHAR(20));
 #+end_src
+* Запросы(Query)
+Результатом запроса является виртуальная таблица
+
+** SELECT
+
+#+begin_src sql
+SELECT COL_NAME FROM TABLE__NAME WHERE BOOLEAN ORDER BY DESC/ASC GROUP BY SMTH HAVING POST BOOLEAN
+#+end_src
+
+WHERE BOOLEAN - фильтрация по условию условие
+ORDER BY DESC/ASC - порядок сортировки
+GROUP BY - группировка по подмножествам
+
+Для исключение повторяющихся записей используется слов **DISTINCT**
+
+*** WHERE
+Это условие, пчел
+- IN
+- LIKE
+- BETWEEN
+
+** Комментарии
+
+#+begin_src sql
+-- Это комментарий
+SELECT * FROM users
+#+end_src
+
+#+begin_src sql
+/*
+----- Это тоже комментарий -----
+*/
+#+end_src
+
+
+
+
