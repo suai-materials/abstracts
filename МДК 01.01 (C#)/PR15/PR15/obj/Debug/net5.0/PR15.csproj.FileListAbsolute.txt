@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\PR15.exe
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\PR15.deps.json
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\PR15.runtimeconfig.json
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\PR15.runtimeconfig.dev.json
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\PR15.dll
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\ref\PR15.dll
+C:\Users\user\Desktop\PR15\PR15\bin\Debug\net5.0\PR15.pdb
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.AssemblyInfo.cs
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.dll
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\ref\PR15.dll
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.pdb
+C:\Users\user\Desktop\PR15\PR15\obj\Debug\net5.0\PR15.genruntimeconfig.cache

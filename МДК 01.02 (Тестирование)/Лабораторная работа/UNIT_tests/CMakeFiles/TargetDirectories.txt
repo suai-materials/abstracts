@@ -1,0 +1,3 @@
+C:/Users/user/CLionProjects/abstracts-2/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir
+C:/Users/user/CLionProjects/abstracts-2/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/edit_cache.dir
+C:/Users/user/CLionProjects/abstracts-2/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/rebuild_cache.dir
