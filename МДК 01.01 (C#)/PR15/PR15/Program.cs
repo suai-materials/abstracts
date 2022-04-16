@@ -6,7 +6,11 @@ namespace PR15
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new Product("Вася"));
+            var vasya = new Product("Вася", 12, 12);
+            Console.WriteLine(vasya);
+            vasya.AddToCart();
+            vasya.AddToCart();
+            Cart.PrintCheck();
             // Проверка на то что имя должно быть не пустое
             try
             {

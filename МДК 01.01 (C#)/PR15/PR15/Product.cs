@@ -43,10 +43,10 @@ namespace PR15
             }
         }
 
-        // Зачем писать три конструктора, когда можно сделать так?
-        public Product(string name, float cost = 0, int quantity = 1)
+        // Зачем писать три конструктора, когда можно сделать так? Красиво, понятно и мало.
+        public Product(string name, float price = 0, int quantity = 1)
         {
-            (Name, Price, Quantity) = (name, cost, quantity);
+            (Name, Price, Quantity) = (name, price, quantity);
         }
 
         public override string ToString()
@@ -67,25 +67,32 @@ namespace PR15
             return product;
         }
 
-        public static Product operator -(Product product, uint n)
+        public static Product operator -(Product product, int n)
         {
-            return new Product(product.Name) {Price = product.Price, Quantity = (int) (product.Quantity - n)};
+            return new Product(product.Name) {Price = product.Price, Quantity = product.Quantity - n};
         }
 
-        public static Product operator +(Product product, uint n)
+        // C#, в чём проблема сделать оператор += и -=?
+        public static Product operator +(Product product, int n)
         {
-            return new Product(product.Name) {Price = product.Price, Quantity = (int) (product.Quantity + n)};
+            return new Product(product.Name) {Price = product.Price, Quantity = (product.Quantity + n)};
         }
+        
 
         public static bool operator ==(Product p1, Product p2)
         {
-            if (p1.Name == p2.Name && p1.Price == p2.Price) return true;
+            if (p1.Name == p2.Name && Math.Abs(p1.Price - p2.Price) < 0.01) return true;
             return false;
         }
 
         public void AddToCart()
         {
             Cart.AddProduct(this);
+        }
+
+        public void AddQuality(int n)
+        {
+            Quantity += n;
         }
         
         public static bool operator !=(Product p1, Product p2)
