@@ -7,10 +7,10 @@ namespace PR15
         static void Main(string[] args)
         {
             Console.WriteLine(new Product("Вася"));
-            // Проверка на то что конструктор лучше не обходить.
+            // Проверка на то что имя должно быть не пустое
             try
             {
-                Product product = new Product(null);
+                Product product = new Product("   ");
             }
             catch (NullReferenceException e)
             {

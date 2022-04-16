@@ -5,37 +5,54 @@ namespace PR15
     public class Product
     {
         private string _name;
-        private float _cost;
+        private double _price;
         private uint _quantity;
+        private double _cost;
 
-        public float Cost
+        public double Cost => _cost;
+
+        public double Price
         {
-            get => _cost;
-            set => _cost = value;
+            get => _price;
+            set
+            {
+                if (value < 0) _price = 0;
+                else _price = value;
+                _cost = _quantity * _price;
+            }
         }
-
-        public uint Quantity
+        
+        public int Quantity 
         {
-            get => _quantity;
-            set => _quantity = value;
+            get => (int) _quantity;
+            set
+            {
+                if (value < 0) _quantity = 0;
+                else _quantity = (uint) value;
+                _cost = _quantity * _price;
+            }
         }
 
         public string Name
         {
             get => _name;
-            set => _name = value;
+            set
+            {
+                if (value is null || value.Trim() == "") throw new NullReferenceException("У товара должно быть имя.");
+                _name = value;
+            }
         }
 
-        public Product(string name, float cost = 0, uint quantity = 1)
+        // Зачем писать три конструктора, когда можно сделать так?
+        public Product(string name, float cost = 0, int quantity = 1)
         {
-            if (name is null)
-                throw new NullReferenceException("Имя должно быть задано");
-            (Name, Cost, Quantity) = (name, cost, quantity);
+            (Name, Price, Quantity) = (name, cost, quantity);
         }
-        
+
         public override string ToString()
         {
-            return $"Товар {Name}, цена за одну единицу товар {Cost}, в количестве {Quantity}. Стоимость: {Quantity * Cost}";
+            return
+                $"Товар {Name}, цена за одну единицу товар {Price}, в количестве {Quantity}. Стоимость: {_cost}";
         }
 
         public static Product operator ++(Product product)
@@ -52,13 +69,29 @@ namespace PR15
 
         public static Product operator -(Product product, uint n)
         {
-            return new Product(product.Name) {Cost = product.Cost, Quantity = product.Quantity - n};
-        }
-        public static Product operator +(Product product, uint n)
-        {
-            return new Product(product.Name) {Cost = product.Cost, Quantity = product.Quantity + n};
+            return new Product(product.Name) {Price = product.Price, Quantity = (int) (product.Quantity - n)};
         }
 
+        public static Product operator +(Product product, uint n)
+        {
+            return new Product(product.Name) {Price = product.Price, Quantity = (int) (product.Quantity + n)};
+        }
+
+        public static bool operator ==(Product p1, Product p2)
+        {
+            if (p1.Name == p2.Name && p1.Price == p2.Price) return true;
+            return false;
+        }
+
+        public void AddToCart()
+        {
+            Cart.AddProduct(this);
+        }
+        
+        public static bool operator !=(Product p1, Product p2)
+        {
+            return !(p1 == p2);
+        }
         public void Print()
         {
             Console.WriteLine(this);
