@@ -266,4 +266,37 @@ Ex. 13
 4. ourself
 5. themselves
 6. itself
-7. 
+7. ourselves
+8. 
+
+Ex. 14
+
+1. mine
+2. me
+3. my
+4. himself
+5. me
+6. me
+7. him
+8. him
+9. my
+10. him
+11. He
+12. himself
+13. 
+14. 
+
+Ex. 15
+
+1. He saw this himself.
+2. She live here herself.
+3. You will be uncomfartable yourself, if you tell about this.
+4. He isnt look like himself today.
+5. Be carefully, you can hurt yourself.
+6. He was absolutely alone by himself.
+7. We introduce yourself by journalistic of evening newspaper.
+8. Did you do this, absolutely yourself?
+9. When we arrived, governer meet us itself in the airport.
+10. After a few minutes he again be himself.
+11. Enter yourself properly.
+12. They do much think about the

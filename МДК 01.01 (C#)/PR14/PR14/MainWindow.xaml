@@ -1,0 +1,20 @@
+﻿<Window x:Class="PR14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR14"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel Background="{StaticResource PrimaryColor}">
+            <Button Height="24" Width="24" VerticalAlignment="Center" Margin="4, 0, 0,0" BorderThickness="0" Background="Transparent" DockPanel.Dock="Left">
+                <Image Source=".\Drawable\Menu.png"></Image>
+            </Button>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Center" DockPanel.Dock="Right">fd</TextBlock>
+        </DockPanel>
+    </Grid>
+</Window>
