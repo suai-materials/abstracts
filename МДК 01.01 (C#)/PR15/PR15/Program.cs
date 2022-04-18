@@ -10,7 +10,15 @@ namespace PR15
             Console.WriteLine(vasya);
             vasya.AddToCart();
             vasya.AddToCart();
+            double d = (double) vasya;
+            var Pivo = new Product("Beer", 24, Int32.MaxValue);
+            Pivo++;
+            Pivo++;
+            Console.WriteLine(Pivo);
+            Console.WriteLine(d);
             Cart.PrintCheck();
+            Console.WriteLine(vasya.IsInPriceRange(10, 40));
+            Console.WriteLine(vasya.IsInCostRange(10, 200));
             // Проверка на то что имя должно быть не пустое
             try
             {

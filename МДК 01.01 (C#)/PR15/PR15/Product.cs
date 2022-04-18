@@ -6,7 +6,8 @@ namespace PR15
     {
         private string _name;
         private double _price;
-        private uint _quantity;
+        // Жаль что нет маленького uint
+        private int _quantity;
         private double _cost;
 
         public double Cost => _cost;
@@ -28,7 +29,7 @@ namespace PR15
             set
             {
                 if (value < 0) _quantity = 0;
-                else _quantity = (uint) value;
+                else _quantity = value;
                 _cost = _quantity * _price;
             }
         }
@@ -48,6 +49,7 @@ namespace PR15
         {
             (Name, Price, Quantity) = (name, price, quantity);
         }
+        
 
         public override string ToString()
         {
@@ -81,9 +83,12 @@ namespace PR15
 
         public static bool operator ==(Product p1, Product p2)
         {
-            if (p1.Name == p2.Name && Math.Abs(p1.Price - p2.Price) < 0.01) return true;
-            return false;
+            return (p1.Name == p2.Name && Math.Abs(p1.Price - p2.Price) < 0.01);
         }
+
+        public static explicit operator double(Product product) => product.Cost;
+        // Я не хочу ломать вызов ToString() в Console.WriteLine()
+        public static implicit operator string(Product product) => product.ToString();
 
         public void AddToCart()
         {
@@ -98,6 +103,15 @@ namespace PR15
         public static bool operator !=(Product p1, Product p2)
         {
             return !(p1 == p2);
+        }
+
+        public bool IsInPriceRange(double min, double max)
+        {
+            return Price > min && Price < max;
+        }
+        public bool IsInCostRange(double min, double max)
+        {
+            return Cost > min && Cost < max;
         }
         public void Print()
         {
