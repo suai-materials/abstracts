@@ -10,206 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="FOLDER REWORK">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Другое/English.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Другое/What.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/ИТ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/New Документ Microsoft Word.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Test.xlsm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/ВПР_ГПР.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Гостиница.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Индивидуальное задание.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Панков Вася 021 2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Панков Вася 021 3.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Панков Вася 021 4.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Панков Вася 021.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Панков Вася 4 НОРМАЛЬНАЯ.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/Панков Вася Крутой.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ИТ/Лабораторные работы/ПанковВ.Д._С021_ИТ_Отчёт.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/1.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/img_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/ltximg/org-ltximg_45bf88734740b96e06632e79ef9afc2bef732e1d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/ltximg/org-ltximg_cbe52f36cdcc0bf3685430e16aacc9451636d3ce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Компьютерные сети.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/1.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/2.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/3.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 1/1.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 1/2.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 1/3.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 1/scratch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/1.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/2.net" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/ltximg/org-ltximg_1a99c40619c2e5fadf3316243f6679450e47c02c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/ltximg/org-ltximg_26067c8dcf8e4658a01a1d24b60ca7db64c9ebf4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/ltximg/org-ltximg_e6029b238e186957aaf26fd3ca2f8b888e06454f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/scratch.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Лабораторная работа № 2/scratch.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Компьютерные сети/Лабораторные работы/Отчёт.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/.idea/.idea.PR14/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/.idea/.idea.PR14/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/.idea/.idea.PR14/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/.idea/.idea.PR14/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/App.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/App.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/Drawable/Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/Drawable/Menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/MainWindow.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/MainWindow.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/PR14.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/App.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/PR14.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/PR14.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/PR14.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/PR14.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/PR14.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/PR14.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/PR14.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/PR14/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR14/global.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/.idea/.idea.PR15/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/.idea/.idea.PR15/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/.idea/.idea.PR15/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/Cart.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/PR15.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/Product.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/PR15.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/PR15.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/PR15.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/PR15.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/PR15.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/PR15.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/bin/Debug/net5.0/ref/PR15.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/PR15.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/ref/PR15.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/Debug/net5.0/refint/PR15.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/PR15.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/PR15.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/PR15.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/PR15/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/PR15/global.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/README.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/1.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/3.22.1/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/UNIT_tests.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/UNIT_tests/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/1.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/1.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/code.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/graph.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/images/graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Белый ящик(часть 2)/test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/1.dock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/1.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/1.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220331-141100_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220405-094849_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220405-095614_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220405-095652_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220405-100743_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220405-101005_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/images/20220405-101228_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_04db99e37621699e6ca7f59c6fa17204b026dc51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_17e7f1d829bf748076fd802e93332991b696a615.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_1e9d060bce22ce67d38c4c6db6cf376baf480d1c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_7e5596799a65dc232becd47eabc5a98443a2470c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_92b3cd764c132c852049fb0957a299ab48a62a2b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_a57d10b374ff7cdd60497c9ae5eec3173dc20f93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltximg/org-ltximg_c17c3ad3bf2d0e244cb1924fca4458119046faea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltxpng/1_08c80703de67cd0427db63c7a7b62e4eeb4e5dde.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltxpng/1_4ceaa9cebe05b74a9d94afd888091709e0f23721.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltxpng/1_a7f019e0e95be0025061cf9374b6363f1f651843.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltxpng/1_deb8e04fe6d486e63f6464e822aac4259a0ab0bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/ltxpng/1_ed02770a8b79734f62dc004c62d83e3244f8046d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/template.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Лабораторная работа/Чёрный ящик/template.ott" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.02 (Тестирование)/Тестирование.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/train.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/train2.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml activity.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml classes.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml classes.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml classes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml sequence.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml use-case 3.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/UML/uml use-case.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/ТЗ/ТЗ.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 02.01 (Технология разработки ПО)/Технология разработки ПО.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/README.org" beforeDir="false" afterPath="$PROJECT_DIR$/DB/README.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/PR14.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/PR14.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/ДЗ/1.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/ДЗ/2-3.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/ДЗ/4.PNG" beforeDir="false" />
@@ -298,7 +121,6 @@
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/paths.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/template.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/Отчет №10.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/12-13" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/.idea/Отчёт №2.iml" beforeDir="false" />
@@ -454,42 +276,6 @@
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-224441_screenshot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-224650_screenshot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ОСиС/ОсиС.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Frame 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/README.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Лабораторные работы/Вторая лаба/Отчёт.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Лабораторные работы/Нормализация/123.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Лабораторные работы/Нормализация/123.vsdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Лабораторные работы/Нормализация/ОТЧЁТ.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Лабораторные работы/Нормализация/Турфирма _Отправим к Чёрту_.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Гайкин_022.accdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лаб_раб2_создание_табл_SQL.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лаб_раб_2_создание_табл_SQL.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лаб_раб_3 импорт_данных.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лаб_раб_4 Создание_запросов.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лаб_раб_5 Создание форм.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лекция Объект форма_2020.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Лекция отчеты_2020.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/ОПБД ЛР №1 Нормализация 2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/ОПБД_Гайкин_Отчет.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Титул_лист.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/transport.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Заказчики.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Заказы.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Заказы_нов.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Конфеты.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Наборы.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Начинки.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Подробности_заказа.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Подробности_заказа.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Подробности_набора.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Подробности_набора.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Основы БД/Материалы/ОПБД/Файлы для импорта к ЛР3/Сотрудники.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Социальная адаптация/1.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Социальная адаптация/scratch.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Социальная адаптация/ДЗ/Статья.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Социальная адаптация/ДЗ/Статья.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -501,6 +287,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6cb776e0-340d-46fa-b152-baf57af2c0e2" />
+        <option name="url" value="https://github.com/Cynep-SU/abstracts.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="0ct99l2a" />
@@ -526,6 +320,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -541,7 +336,9 @@
       <workItem from="1650004041570" duration="348000" />
       <workItem from="1650121382123" duration="3495000" />
       <workItem from="1650364341653" duration="454000" />
-      <workItem from="1650364819507" duration="6000" />
+      <workItem from="1650364819507" duration="1315000" />
+      <workItem from="1650370780268" duration="875000" />
+      <workItem from="1650391030318" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="16 - Вопросы сделаны">
       <created>1649834603109</created>
@@ -592,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650272985304</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FOLDER REWORK">
+      <created>1650364890104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650364890104</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FOLDER REWORK">
+      <created>1650364981318</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650364981318</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,6 +421,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ОСиС/Лабораторные работы/12-13" />
+    </ignored-roots>
     <MESSAGE value="16 - Вопросы сделаны" />
     <MESSAGE value="17 - Вопросы сделаны, частично" />
     <MESSAGE value="Virtual Machine added" />

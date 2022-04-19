@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\CLionProjects\\abstracts-2\\МДК 01.01 (C#)\\PR14\\PR14\\PR14.csproj": {}
+    "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\CLionProjects\\abstracts-2\\МДК 01.01 (C#)\\PR14\\PR14\\PR14.csproj": {
+    "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\CLionProjects\\abstracts-2\\МДК 01.01 (C#)\\PR14\\PR14\\PR14.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj",
         "projectName": "PR14",
-        "projectPath": "C:\\Users\\user\\CLionProjects\\abstracts-2\\МДК 01.01 (C#)\\PR14\\PR14\\PR14.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\CLionProjects\\abstracts-2\\МДК 01.01 (C#)\\PR14\\PR14\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\PR14\\PR14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

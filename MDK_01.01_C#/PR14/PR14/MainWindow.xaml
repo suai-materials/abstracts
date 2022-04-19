@@ -9,12 +9,22 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="32"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <DockPanel Background="{StaticResource PrimaryColor}">
             <Button Height="24" Width="24" VerticalAlignment="Center" Margin="4, 0, 0,0" BorderThickness="0" Background="Transparent" DockPanel.Dock="Left">
                 <Image Source="Drawable/Menu.png"></Image>
             </Button>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Center" DockPanel.Dock="Right">fd</TextBlock>
+            <TextBlock VerticalAlignment="Center" TextAlignment="Center" FontFamily="Roboto" FontWeight="Regular" FontSize="16" DockPanel.Dock="Right">Cars</TextBlock>
         </DockPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  MinWidth="100" MaxWidth="300" Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Co Fill="Aqua"></Rectangle>
+            <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch"></GridSplitter>
+        </Grid>
     </Grid>
 </Window>
