@@ -31,6 +31,8 @@ namespace PR14
 
         void updateInfo()
         {
+            if (_data.Count - 1 < _indexNow)
+                return;
             string[] arr = _data[_indexNow];
             FactoryName.Text = arr[0];
             Type.Text = "Вид машин: " + arr[1];

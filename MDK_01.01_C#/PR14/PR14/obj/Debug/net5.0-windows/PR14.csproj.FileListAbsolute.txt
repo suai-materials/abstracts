@@ -57,11 +57,16 @@ C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\bin\Debug\net5.0-wind
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\bin\Debug\net5.0-windows\PR14.dll
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\bin\Debug\net5.0-windows\PR14.pdb
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14.csproj.AssemblyReference.cache
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\AddCar.baml
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\App.baml
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\AddCar.g.cs
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\Certificates.g.cs
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14_MarkupCompile.cache
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\App.baml
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14_MarkupCompile.lref
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\Certificates.baml
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14.g.resources
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14.AssemblyInfoInputs.cache
@@ -72,8 +77,3 @@ C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-wind
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14.pdb
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14.genruntimeconfig.cache
 C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\ref\PR14.dll
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\AddCar.g.cs
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\AddCar.baml
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\Certificates.g.cs
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\PR14_MarkupCompile.lref
-C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14\PR14\obj\Debug\net5.0-windows\Certificates.baml

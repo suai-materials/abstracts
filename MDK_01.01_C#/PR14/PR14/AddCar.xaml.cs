@@ -40,12 +40,15 @@ namespace PR14
             {
                 MessageBox.Show("Вы что-то не ввели");
             }
-
-            String save;
-            using (StreamReader file_r = new StreamReader("1.txt"))
+            String save = "";
+            if (File.Exists("1.txt"))
             {
-                save = file_r.ReadToEnd();
+                using (StreamReader file_r = new StreamReader("1.txt"))
+                {
+                    save = file_r.ReadToEnd();
+                }
             }
+
             using (StreamWriter file = new StreamWriter("1.txt"))
             {
                 file.Write(save);
