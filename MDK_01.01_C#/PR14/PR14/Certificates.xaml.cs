@@ -9,31 +9,30 @@ namespace PR14
 {
     public partial class Certificates : Page
     {
-        private List<string[]> _data =
-            new List<string[]>();
+        private List<string[]> _data = new();
 
         private int _indexNow = 0;
+
         public Certificates()
         {
-            
             InitializeComponent();
-            using (StreamReader file_r = new StreamReader("1.txt"))
+            using (var file_r = new StreamReader("1.txt"))
             {
                 while (!file_r.EndOfStream)
                 {
-                    string str = file_r.ReadLine();
+                    var str = file_r.ReadLine();
                     _data.Add(str.Split("~").ToArray());
                 }
-                
             }
+
             updateInfo();
         }
 
-        void updateInfo()
+        private void updateInfo()
         {
             if (_data.Count - 1 < _indexNow)
                 return;
-            string[] arr = _data[_indexNow];
+            var arr = _data[_indexNow];
             FactoryName.Text = arr[0];
             Type.Text = "Вид машин: " + arr[1];
             Mark.Text = "Марка машин: " + arr[2];

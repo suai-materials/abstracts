@@ -62,7 +62,8 @@
                 </ToggleButton>
             </StackPanel>
             <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
-            <Frame NavigationUIVisibility="Hidden" Grid.Column="2" Name="Frame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="AddCar.xaml" />
+            <Frame NavigationUIVisibility="Hidden" Grid.Column="2" Name="Frame" HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch" Source="AddCar.xaml" />
         </Grid>
     </Grid>
 </Window>

@@ -35,7 +35,7 @@
                 <TextBlock>Грузовые</TextBlock>
             </ComboBox>
         </DockPanel>
-        <DockPanel  VerticalAlignment="Center" Grid.Row="2" Margin="0, 20, 0, 0">
+        <DockPanel VerticalAlignment="Center" Grid.Row="2" Margin="0, 20, 0, 0">
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
                        VerticalAlignment="Center"
                        DockPanel.Dock="Left" Text="Марка автомобиля: " TextWrapping="Wrap" />
@@ -71,7 +71,8 @@
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
                        VerticalAlignment="Center"
                        DockPanel.Dock="Left" Text="Количество выпущенных: " />
-            <TextBox Name="Quantity" Width="90" PreviewTextInput="UIElement_OnPreviewTextInput" FontSize="14" Margin="10, 0, 0, 0" />
+            <TextBox Name="Quantity" Width="90" PreviewTextInput="UIElement_OnPreviewTextInput" FontSize="14"
+                     Margin="10, 0, 0, 0" />
         </DockPanel>
         <DockPanel Grid.Column="2" Grid.Row="0" VerticalAlignment="Center">
             <TextBlock Style="{StaticResource PrimaryText}" FontSize="14" VerticalAlignment="Center"
@@ -106,7 +107,8 @@
         </DockPanel>
 
 
-        <Button Click="ButtonBase_OnClick" Grid.Column="2" Grid.Row="4" Height="35" Width="84" HorizontalAlignment="Right"
+        <Button Click="ButtonBase_OnClick" Grid.Column="2" Grid.Row="4" Height="35" Width="84"
+                HorizontalAlignment="Right"
                 HorizontalContentAlignment="Left" VerticalAlignment="Bottom" Margin="0, 0,  20, 20">
             <StackPanel Orientation="Horizontal">
                 <Image Margin="15, 0, 0,0" Source="pack://application:,,,/res/add.png" Width="12" />

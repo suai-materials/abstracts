@@ -31,25 +31,21 @@ namespace PR14
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            List<RadioButton> t = new List<RadioButton>(){rb3, rb5, rb10, rb15};
+            var t = new List<RadioButton>() {rb3, rb5, rb10, rb15};
             t = t.Where(b => b.IsChecked is true).ToList();
-            
+
             if (FactoryName.Text == "" || AutoType.Text == "" ||
                 ((MarkType.SelectedItem as StackPanel)!.Children[1] as TextBlock)!.Text == "" || Quantity.Text == "" ||
                 Price.Text == "" || Date.Text == "" || t.Count == 0)
-            {
                 MessageBox.Show("Вы что-то не ввели");
-            }
-            String save = "";
+            var save = "";
             if (File.Exists("1.txt"))
-            {
-                using (StreamReader file_r = new StreamReader("1.txt"))
+                using (var file_r = new StreamReader("1.txt"))
                 {
                     save = file_r.ReadToEnd();
                 }
-            }
 
-            using (StreamWriter file = new StreamWriter("1.txt"))
+            using (var file = new StreamWriter("1.txt"))
             {
                 file.Write(save);
                 file.WriteLine(

@@ -75,7 +75,7 @@ namespace PR14
                     {
                         MessageBox.Show("Это появится в будующем.");
                     }
-                    
+
                     continue;
                 }
 
