@@ -9,251 +9,32 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="FOLDER REWORK">
-      <change afterPath="$PROJECT_DIR$/ОСиС/ДЗ/1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/ДЗ/2-3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/ДЗ/4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/.idea/Отчёты.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/3.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/4.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/5.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/6.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/6.but" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/7.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/8.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/3.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/4.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/5.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/6.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/6.but" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/7.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/8.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/pandoc 1.md -o 1.docx --reference-doc template.docx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/paths.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/template.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/backup/Отчет №10.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/comment.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/3.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/4.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/5.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/6.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/6.but" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/7.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/8.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/pandoc 1.md -o 1.docx --reference-doc template.docx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/paths.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/template.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/data/Отчет №10.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/images/1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/pandoc 1.md -o 1.docx --reference-doc template.docx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/paths.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/template.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/10-11/Отчет №10.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/.idea/Отчёт №2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/14/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/.idea/15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/1_sfx.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/1_sr.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/1_sub.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/2_sfx.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/2_sr.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/2_sub.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/template.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_0.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_1.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_2.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_3.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_4.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_5.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_sfx.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_sr.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_sub.part1.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_sub.part2.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_sub.part3.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/1_sub.part4.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_0.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_1.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_2.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_3.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_4.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_5.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_sfx.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_sr.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/2_sub.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Bezopasnoe vozhdenie.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/bat.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/to archive.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/to archive.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/to archive.zip.001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/to archive.zip.002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/to archive.zip.003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Белошеев Никита_С021_ИТ_Отчет.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Индивидуальное задание.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Лаб 6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Лист Microsoft Excel.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Мерлин_021_ИТ_Отчёт.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Панков Вася 021 3.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Панков Вася 4 НОРМАЛЬНАЯ.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/Панков Вася Крутой.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/to archive/ПанковВ.Д._С021_ИТ_Отчёт.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/15/Итоги.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/1.org" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220405-235521_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220405-235711_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220405-235935_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-000048_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-000654_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-000814_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-001255_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-002048_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-002322_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-002340_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-004120_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-111550_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-112050_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-112513_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-113450_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-114241_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-114928_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-120749_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-122710_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-122912_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220406-122938_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-210358_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-211353_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-212125_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-212247_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-213043_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-214245_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-214343_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-214534_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-214615_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220411-214640_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220413-115811_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220413-115902_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220413-115919_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220413-115940_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220413-115957_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/16/images/20220413-120100_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/1.org" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-210713_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-211053_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-211105_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-211744_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-211936_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-212929_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-213215_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-213651_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-214053_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-214508_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-214718_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-215430_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-220723_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-220819_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-221021_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-221135_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-221300_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-221326_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-222653_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-223247_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-223543_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-224346_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-224441_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/images/20220412-224650_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ОСиС/ОсиС.md" afterDir="false" />
+    <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="AAAAAAAAAAAAAAAA">
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/.idea/.idea.ClassLibrary_Stock/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/.idea/.idea.ClassLibrary_Stock/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/.idea/.idea.ClassLibrary_Stock/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/.idea/.idea.ClassLibrary_Stock/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/ClassLibrary_Stock.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/UnitMessure.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/ClassLibrary_Stock.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/ClassLibrary_Stock.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/ClassLibrary_Stock.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/1.org" beforeDir="false" afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/1.org" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +97,8 @@
       <workItem from="1650364341653" duration="454000" />
       <workItem from="1650364819507" duration="1315000" />
       <workItem from="1650370780268" duration="875000" />
-      <workItem from="1650391030318" duration="820000" />
+      <workItem from="1650391030318" duration="1003000" />
+      <workItem from="1650444148833" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="16 - Вопросы сделаны">
       <created>1649834603109</created>
@@ -388,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650391211414</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="AAAAAAAAAAAAAAAA">
+      <created>1650436437022</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650436437022</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +206,7 @@
     <MESSAGE value="csharp + testing" />
     <MESSAGE value="eng" />
     <MESSAGE value="FOLDER REWORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="FOLDER REWORK" />
+    <MESSAGE value="AAAAAAAAAAAAAAAA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AAAAAAAAAAAAAAAA" />
   </component>
 </project>
