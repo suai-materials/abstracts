@@ -5,10 +5,11 @@
         <TargetFramework>net5.0-windows</TargetFramework>
         <UseWPF>true</UseWPF>
     </PropertyGroup>
+    <!--  НУ ЭТО УЖАСНЫЙ СБОРЩИК -->
     <ItemGroup>
-        <Content Include="Drawable/*.*">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </Content>
+        <Resource Include="./res/*.*">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
     </ItemGroup>
 
 </Project>

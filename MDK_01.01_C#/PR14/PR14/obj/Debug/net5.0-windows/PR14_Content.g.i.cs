@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("drawable/menu.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("res/menu.svg")]
 
 

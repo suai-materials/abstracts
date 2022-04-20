@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj": {}
+    "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14\\PR14\\PR14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj": {
+    "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14\\PR14\\PR14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj",
+        "projectUniqueName": "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14\\PR14\\PR14.csproj",
         "projectName": "PR14",
-        "projectPath": "C:\\Users\\user\\Desktop\\PR14\\PR14\\PR14.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\PR14\\PR14\\obj\\",
+        "projectPath": "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14\\PR14\\PR14.csproj",
+        "packagesPath": "C:\\Users\\pankSU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14\\PR14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pankSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
