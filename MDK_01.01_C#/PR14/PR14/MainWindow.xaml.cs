@@ -67,6 +67,15 @@ namespace PR14
                     AppBar.Text = ((btn.Content as DockPanel)!.Children[1] as TextBlock).Text;
                     ((btn.Content as DockPanel)!.Children[1] as TextBlock).Foreground =
                         Application.Current.Resources["SecondaryTextColor"] as SolidColorBrush;
+                    try
+                    {
+                        Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+                    }
+                    catch (Exception exception)
+                    {
+                        MessageBox.Show("Это появится в будующем.");
+                    }
+                    
                     continue;
                 }
 

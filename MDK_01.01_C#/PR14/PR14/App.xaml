@@ -52,5 +52,19 @@
             </Style.Resources>
 
         </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}" />
+            <Setter Property="FontFamily" Value="Roboto" />
+            <Setter Property="FontWeight" Value="Regular" />
+            <Setter Property="Foreground" Value="{StaticResource PrimaryTextColor}" />
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="Border.CornerRadius" Value="4,4, 4, 4" />
+                </Style>
+            </Style.Resources>
+
+        </Style>
+
     </Application.Resources>
 </Application>

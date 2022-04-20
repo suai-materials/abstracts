@@ -19,7 +19,7 @@
             <TextBlock Name="AppBar" VerticalAlignment="Center" TextAlignment="Center" FontFamily="Roboto"
                        FontWeight="Regular"
                        FontSize="20" DockPanel.Dock="Right">
-                Add car
+                Add cars
             </TextBlock>
         </DockPanel>
         <Grid Grid.Row="1">
@@ -36,7 +36,7 @@
                         <TextBlock Margin="20, 0, 0, 0" Style="{StaticResource PrimaryText}" Foreground="White"
                                    VerticalAlignment="Center"
                                    FontSize="16">
-                            Add car
+                            Add cars
                         </TextBlock>
                     </DockPanel>
                 </ToggleButton>
@@ -62,7 +62,7 @@
                 </ToggleButton>
             </StackPanel>
             <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
-            <Frame Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="AddCar.xaml" />
+            <Frame NavigationUIVisibility="Hidden" Grid.Column="2" Name="Frame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="AddCar.xaml" />
         </Grid>
     </Grid>
 </Window>

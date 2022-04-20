@@ -1,0 +1,49 @@
+﻿<Page x:Class="PR14.Certificates"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:PR14"
+      mc:Ignorable="d"
+      Title="Certificates" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Name="FactoryName" TextAlignment="Center" Style="{StaticResource PrimaryText}" VerticalAlignment="Center" FontSize="60"
+                   Grid.ColumnSpan="3">
+            Factory Name
+        </TextBlock>
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+            <TextBlock FontSize="15" Name="Type" Style="{StaticResource PrimaryText}" Text="Вид машин: "></TextBlock>
+            <TextBlock FontSize="15" Name="Mark" Style="{StaticResource PrimaryText}" Text="Марка машин: "></TextBlock>
+            <TextBlock FontSize="15" Name="Price" Style="{StaticResource PrimaryText}" Text="Цена за одну: "></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
+            <TextBlock TextAlignment="Right" FontSize="15" Name="Qnt" Style="{StaticResource PrimaryText}" Text="Количество: "></TextBlock>
+            <TextBlock TextAlignment="Right" FontSize="15" Name="Percent" Style="{StaticResource PrimaryText}" Text="Наценка: "></TextBlock>
+            <TextBlock TextAlignment="Right" FontSize="15" Name="Cost" Style="{StaticResource PrimaryText}" Text="Стоимость: "></TextBlock>
+        </StackPanel>
+        <StackPanel  Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" Name="Date" Style="{StaticResource PrimaryText}">Дата:</TextBlock>
+            <StackPanel  Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" Style="{StaticResource PrimaryText}" Margin="5, 0, 0, 0">Подпись:</TextBlock>
+                <Image  Height="50" Source="res/director.png"></Image>
+            </StackPanel>
+        </StackPanel>
+        <Button Click="ButtonBase_OnClick" Grid.Column="2" Grid.Row="4" Height="35" Width="84" HorizontalAlignment="Right"
+                HorizontalContentAlignment="Left" VerticalAlignment="Bottom" Margin="0, 0,  10, 10">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="14" Margin="15, 0, 0,0">Next</TextBlock>
+                <Image Margin="10, 0, 0,0" Source="pack://application:,,,/res/next.png" Width="12" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</Page>
