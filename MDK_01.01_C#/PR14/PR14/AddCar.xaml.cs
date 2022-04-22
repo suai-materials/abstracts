@@ -37,13 +37,19 @@ namespace PR14
             if (FactoryName.Text == "" || AutoType.Text == "" ||
                 ((MarkType.SelectedItem as StackPanel)!.Children[1] as TextBlock)!.Text == "" || Quantity.Text == "" ||
                 Price.Text == "" || Date.Text == "" || t.Count == 0)
+            {
                 MessageBox.Show("Вы что-то не ввели");
+                return;
+            }
+
             var save = "";
             if (File.Exists("1.txt"))
                 using (var file_r = new StreamReader("1.txt"))
                 {
                     save = file_r.ReadToEnd();
                 }
+            else
+                File.Create("1.txt");
 
             using (var file = new StreamWriter("1.txt"))
             {

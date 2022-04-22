@@ -24,5 +24,10 @@ namespace ClassLibrary_Stock
             (Name, Article, Price, Unit, Marge, DateOfReceipt, Quantity) = (name, article, price,
                 unit, merge, date, quantity);
         }
+
+        public override string ToString()
+        {
+            return $"{Name}, {Article}, {Price}, {Quantity}, {Unit}, {DateOfReceipt}, {Marge}";
+        }
     }
 }

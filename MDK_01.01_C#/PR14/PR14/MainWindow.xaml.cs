@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -67,14 +68,33 @@ namespace PR14
                     AppBar.Text = ((btn.Content as DockPanel)!.Children[1] as TextBlock).Text;
                     ((btn.Content as DockPanel)!.Children[1] as TextBlock).Foreground =
                         Application.Current.Resources["SecondaryTextColor"] as SolidColorBrush;
-                    try
+
+                    switch (btn.Name)
                     {
-                        Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+                        case "AddCar":
+                            Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+                            break;
+                        case "Certificates":
+                            if (File.Exists("1.txt") && File.ReadAllText("1.txt").Contains("~"))
+                            {
+                                Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Надо добавить информацию в Add cars. Для того чтобы продолжить");
+                                AddCar.IsChecked = true;
+                            }
+
+                            break;
+
+                        default:
+                            MessageBox.Show("Это появится в будущем.");
+                            AddCar.IsChecked = true;
+                            break;
                     }
-                    catch (Exception exception)
-                    {
-                        MessageBox.Show("Это появится в будующем.");
-                    }
+
+                    // Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+
 
                     continue;
                 }

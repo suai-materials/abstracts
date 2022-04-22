@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Icon="pack://application:,,,/res/car.png"
-        Title="CarFactory" Height="450" Width="800">
+        Title="CarFactory" MinHeight="400" MinWidth="700" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="32" />
