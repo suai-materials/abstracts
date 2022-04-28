@@ -985,3 +985,29 @@ SELECT column1, columntable2 FROM TABLE1, TABLE2
 Для того чтобы получить нужное объединение мы должны создать необходимое условие, с помощью WHERE.
 
 ** Объединение таблиц с помощью JOIN.
+- INNER JOIN - внутреннее объединение таблиц.
+- LEFT JOIN or LEFT OUTER JOIN - левое внешнее объединение таблиц.
+- RIGHT JOIN or RIGHT OUTER JOIN - правое внешнее объединение таблиц.
+- FULL JOIN - полное объединение
+- CROSS JOIN - перекрёстное объединение
+
+#+DOWNLOADED: screenshot @ 2022-04-22 11:28:02
+[[file:images/20220422-112802_screenshot.png]]
+
+#+begin_src sql
+select COLUMNNAME from TABLENAME JOIN TABLENAME_2 on BOOLEAN
+#+end_src
+
+
+*** INNER JOIN (внутреннее)
+
+Симметричная, в результате получаем таблицу, состоящию из строк объединенияемых таблиц, для которых рещультат выполнения предиката(BOOLEAN) равен TRUE.
+
+#+begin_src sql
+select PARTS.Part, CATEGORIES.CAT_ID AS CAT, CATEGORIES.PRICE FROM PARTS INNER JOIN CATTEGORIES ON PARTS.Cat = CATEGORIES.CAT_ID
+#+end_src
+
+*** Синтаксис объединения 3-х и более таблиц
+#+begin_src sql
+select t1.col, t3.col from table1 join table2 on table1.primarykey = table2.foreignkey join table1
+#+end_src

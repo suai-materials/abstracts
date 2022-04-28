@@ -10,153 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="AAAAAAAAAAAAAAAA">
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/Stock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/TestProject2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/UnitTest1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ClassLibrary_Stock.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ClassLibrary_Stock.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/CoverletSourceRootsMapping" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.TestPlatform.AdapterUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/TestProject2.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/TestProject2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/TestProject2.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/TestProject2.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/TestProject2.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ref/TestProject2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/testhost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/ref/TestProject2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/TestProject2.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/TestProject2.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/TestProject2.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/AllProducts.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/AllProducts.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/MainWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/MainWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/PageProduct.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/PageProduct.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/WpfApp_Stock_021_EMA.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/obj/Debug/App.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/WpfApp_Stock_021_EMA/obj/Debug/WpfApp_Stock_021_EMA.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB/README.org" beforeDir="false" afterPath="$PROJECT_DIR$/DB/README.org" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/AddCar.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/AddCar.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/bin/Debug/net5.0-windows/PR14.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/PR14.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/ref/PR14.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/Debug/net5.0-windows/ref/PR14.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/PR14.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/PR14.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/PR14.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/PR14.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MDK_01.01_C#/PR14/PR14/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock.sln" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/ClassLibrary_Stock.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/ClassLibrary_Stock.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/Debug/net5.0/ClassLibrary_Stock.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/ClassLibrary_Stock/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/1.org" beforeDir="false" afterPath="$PROJECT_DIR$/ОСиС/Лабораторные работы/17/1.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/Debug/net5.0/TestProject2.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/TestProject2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/TestProject2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/МДК 01.01 (C#)/ClassLibrary_Stock/TestProject2/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +108,10 @@
       <workItem from="1650391030318" duration="1003000" />
       <workItem from="1650444148833" duration="620000" />
       <workItem from="1650529598685" duration="647000" />
-      <workItem from="1650615334960" duration="3000" />
+      <workItem from="1650615334960" duration="661000" />
+      <workItem from="1651040880425" duration="678000" />
+      <workItem from="1651133921477" duration="679000" />
+      <workItem from="1651142973051" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="16 - Вопросы сделаны">
       <created>1649834603109</created>
@@ -308,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650444160630</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AAAAAAAAAAAAAAAA">
+      <created>1650615394280</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650615394280</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
