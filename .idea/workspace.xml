@@ -11,14 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="AAAAAAAAAAAAAAAA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/1.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-160035_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-161014_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-161400_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-161545_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-162043_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-162235_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-162316_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computer_network/Лабораторные работы/Отчёт.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Computer_network/Лабораторные работы/Отчёт.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +22,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="a3087943d940710812adc657080dac1fa5e6dd59" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -212,7 +211,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="c0833e65-dae2-4ba4-9557-10ece27169c0">
