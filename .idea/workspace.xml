@@ -9,7 +9,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="AAAAAAAAAAAAAAAA" />
+    <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="AAAAAAAAAAAAAAAA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/1.org" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-160035_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-161014_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-161400_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-161545_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-162043_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-162235_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ОСиС/Лабораторные работы/18/images/20220503-162316_screenshot.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,11 +170,42 @@
       <option name="project" value="LOCAL" />
       <updated>1650444160630</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AAAAAAAAAAAAAAAA">
+      <created>1651820903944</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651820903944</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Вася, делай коммиты нормально.">
+      <created>1651821872771</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651821872771</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Вася, делай коммиты нормально.">
+      <created>1651824717137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651824717137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -174,6 +215,37 @@
             <State />
           </value>
         </entry>
+        <entry key="c0833e65-dae2-4ba4-9557-10ece27169c0">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/ОСиС/Лабораторные работы/12-13" />
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c0833e65-dae2-4ba4-9557-10ece27169c0" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -190,6 +262,7 @@
     <MESSAGE value="eng" />
     <MESSAGE value="FOLDER REWORK" />
     <MESSAGE value="AAAAAAAAAAAAAAAA" />
-    <option name="LAST_COMMIT_MESSAGE" value="AAAAAAAAAAAAAAAA" />
+    <MESSAGE value="Вася, делай коммиты нормально." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вася, делай коммиты нормально." />
   </component>
 </project>
