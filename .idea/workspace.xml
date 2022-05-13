@@ -9,9 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="AAAAAAAAAAAAAAAA">
+    <list default="true" id="23bbbf14-32ce-4529-aedc-b62ad86c5651" name="Changes" comment="ыаы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer_network/Лабораторные работы/Отчёт.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Computer_network/Лабораторные работы/Отчёт.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651824717137</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ыаы">
+      <created>1651830101919</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651830101919</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +280,7 @@
     <MESSAGE value="FOLDER REWORK" />
     <MESSAGE value="AAAAAAAAAAAAAAAA" />
     <MESSAGE value="Вася, делай коммиты нормально." />
-    <option name="LAST_COMMIT_MESSAGE" value="Вася, делай коммиты нормально." />
+    <MESSAGE value="ыаы" />
+    <option name="LAST_COMMIT_MESSAGE" value="ыаы" />
   </component>
 </project>

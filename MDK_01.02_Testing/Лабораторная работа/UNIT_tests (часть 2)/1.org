@@ -1,0 +1,287 @@
+#+TITLE: Лабораторная работа № 5. Интеграционное тестирование
+#+AUTHOR: Панков Вася
+
+Цель работы: получение навыков интеграционного тестирования.
+
+13. Даны две дроби A/B и C/D (А, В, С, D — натуральные числа).
+Составить функции, возвращающие числитель и знаменатель дроби – результата умножения дроби на дробь. 
+Ответ должен быть несократимой дробью.
+
+15. Даны две дроби A/B и C/D (А, В, С, D — натуральные числа). 
+Составить функции, возвращающие числитель и знаменатель дроби – результата сло-жения данных дробей. 
+Ответ должен быть несократимой дробью.
+16. Написать функцию вычисления k! Составить функцию вычисления суммы факториалов всех четных чисел от m до n.
+Модуль 1, 2(fraction.h):
+#+begin_src c++
+#include <iostream>
+
+#ifndef fraction_H
+#define fraction_H
+
+using namespace std;
+
+class Fraction{
+ private:
+    void reduce(){
+        int max = denominator > numerator? denominator: numerator;
+        if (max == 1)
+            return;
+        for (int i = 2; i < max / 2 + 1; i++){
+            if (numerator % i == 0 && denominator % i == 0){
+                numerator /= i;
+                denominator /= i;
+                reduce();
+            }
+        }
+        if (numerator % max == 0 && denominator % max == 0){
+            numerator /= max;
+            denominator /= max;
+            reduce();
+        }
+    };
+ public:
+  int numerator;
+  int denominator;
+    Fraction(int numerator, int denominator = 1){
+        this->numerator = numerator;
+        this->denominator = denominator;
+        reduce();
+    };
+    friend ostream& operator << (ostream& os, Fraction& fr){
+        string num_str = to_string(fr.numerator);
+        string den_str = to_string(fr.denominator);
+        // os << " " << num_str << " " << endl;
+
+        if (den_str.size() > num_str.size()){
+            for (int i = 0; i < den_str.size() / 2 + 1 - (num_str.size() % 2 == 0 ? num_str.size() / 2: num_str.size() / 2 + 1); i++)
+                os << " ";
+            os << num_str << endl;
+            os << "-";
+            for (auto ch: den_str)
+                os << "-";
+            os << "-" << " (" << (fr.numerator / 1.0f) / fr.denominator << ")" << endl;
+            os << " " << den_str << endl;
+        } else {
+            os << " " << num_str << endl;
+            os << "-";
+            for (auto ch: num_str)
+                os << "-";
+            os << "-" << " (" << (fr.numerator / 1.0f) / fr.denominator << ")" << endl;
+            for (int i = 0; i < num_str.size() / 2 + 1 - den_str.size() / 2; i++)
+                os << " ";
+            os << den_str << endl;
+        }
+        os << '\r' << '\r';
+        return os;
+    };
+    Fraction& operator *=(Fraction &frac1){
+        this->numerator *= frac1.numerator;
+        this->denominator *= frac1.denominator;
+        reduce();
+        return *this;
+    };
+    Fraction& operator *=(int num){
+        Fraction fr(num, 1);
+        *this *= fr;
+        return *this;
+    };
+    Fraction operator *(Fraction &frac1){
+        return Fraction(numerator * frac1.numerator, denominator *= frac1.denominator) ;
+    };
+    Fraction operator *(int num){
+        return Fraction(numerator * num, denominator) ;
+    };
+
+    Fraction& operator +=(Fraction &frac1){
+        numerator *= frac1.denominator;
+        frac1.numerator *= denominator;
+        this->numerator += frac1.numerator;
+        this->denominator *= frac1.denominator;
+        reduce();
+        return *this;
+    };
+    Fraction operator +(Fraction &frac1){
+        Fraction fr(numerator, denominator);
+        fr += frac1;
+        return fr;
+    };
+};
+
+#endif
+
+#+end_src
+
+Модуль 3(factorial.h):
+#+begin_src c++
+#ifndef UNIT_TESTS_FACTORIAL_H
+#define UNIT_TESTS_FACTORIAL_H
+
+unsigned long long factorial(unsigned char num){ // Максимальный факториал - 21
+    if (num > 21) throw EXIT_FAILURE;
+    unsigned long long rez = 1;
+    for (int i = 2; i <= num; i++){
+        rez *= i;
+    }
+    return rez;
+}
+
+unsigned long long even_sum_fact(unsigned char num, unsigned char num2){
+    if (num > num2 || num2 > 20) throw EXIT_FAILURE;
+    unsigned long long sum = 0;
+    for (int i = num; i <= num2; i++)
+        if (i % 2 == 0)
+            sum += factorial(i);
+    return sum;
+}
+
+#endif //UNIT_TESTS_FACTORIAL_H
+#+end_src
+
+Тестирование с помощью Google test(tests.cpp):
+#+begin_src c++
+#include "gtest/gtest.h"
+#include "factorial.h"
+#include "fraction.h"
+#include "string"
+
+TEST(FractionAddTest, ReduceCheckToOne) {
+    Fraction fr1(2, 3);
+    Fraction fr2(1, 3);
+    Fraction fr3 = fr1 + fr2;
+    EXPECT_EQ(fr3.numerator, 1);
+    EXPECT_EQ(fr3.denominator, 1);
+}
+
+TEST(FractionAddTest, VariousDenominator) {
+    Fraction fr1(2, 3);
+    Fraction fr2(1, 9);
+    Fraction fr3 = fr1 + fr2;
+    EXPECT_EQ(fr3.numerator, 7);
+    EXPECT_EQ(fr3.denominator, 9);
+}
+
+TEST(FractionAddTest, VariousDenominatorReduce) {
+    Fraction fr1(2, 4);
+    Fraction fr2(2, 5);
+    Fraction fr3 = fr1 + fr2;
+    EXPECT_EQ(fr3.numerator, 9);
+    EXPECT_EQ(fr3.denominator, 10);
+}
+
+TEST(FractionAddTest, ImproperFractionResult) {
+    Fraction fr1(2, 3);
+    Fraction fr2(2, 3);
+    Fraction fr3 = fr1 + fr2;
+    EXPECT_EQ(fr3.numerator, 4);
+    EXPECT_EQ(fr3.denominator, 3);
+}
+
+TEST(DisplayTest, OneToOneBadTest) {
+    Fraction fr(1, 1);
+    stringstream ss;
+    ss <<
+       fr;
+    EXPECT_STREQ(" 1\n--- (1)\n 1\n", ss.str().c_str());
+}
+
+TEST(DisplayTest, OneToOneGoodTest) {
+    Fraction fr(1, 1);
+    stringstream ss;
+    ss << fr;
+    EXPECT_STREQ(" 1\n--- (1)\n 1\n\r\r", ss.str().c_str());
+}
+
+TEST(DisplayTest, IrrationalFraction) {
+    Fraction fr(1, 3);
+    stringstream ss;
+    ss << fr;
+    EXPECT_STREQ(" 1\n--- (0.333333)\n 3\n\r\r", ss.str().c_str());
+}
+
+TEST(FractionMultiplyTest, Multiply) {
+    Fraction fr1(2, 3);
+    Fraction fr2(2, 3);
+    Fraction fr3 = fr1 * fr2;
+    EXPECT_EQ(fr3.numerator, 4);
+    EXPECT_EQ(fr3.denominator, 9);
+}
+
+TEST(FractionMultiplyTest, MultiplyAndReduce) {
+    Fraction fr1(2, 3);
+    Fraction fr2(1, 2);
+    Fraction fr3 = fr1 * fr2;
+    EXPECT_EQ(fr3.numerator, 1);
+    EXPECT_EQ(fr3.denominator, 3);
+}
+
+TEST(FractionMultiplyTest, MultiplyWithNumber) {
+    Fraction fr1(2, 3);
+    Fraction fr3 = fr1 * 3;
+    EXPECT_EQ(fr3.numerator, 2);
+    EXPECT_EQ(fr3.denominator, 1);
+}
+
+TEST(FactorialBaseTest, ZeroFactorial){
+    EXPECT_EQ(factorial(0), 1);
+}
+
+TEST(FactorialBaseTest, LessTenFactorial){
+    EXPECT_EQ(factorial(1), 1);
+    EXPECT_EQ(factorial(5), 120);
+    EXPECT_EQ(factorial(9), 362880);
+}
+
+TEST(FactorialBaseTest, BigFactorial){
+    EXPECT_STREQ(to_string(factorial(20)).c_str(), "2432902008176640000");
+}
+TEST(FactorialBaseTest_BigFactorial_Test, BadTest){
+    EXPECT_STREQ(to_string(factorial(21)).c_str(), "51090942171709440000");
+}
+
+TEST(FactorialEvenSum, NUMS_EQUALS){
+    EXPECT_EQ(even_sum_fact(0, 0), 1);
+    EXPECT_EQ(even_sum_fact(1, 1), 0);
+    EXPECT_EQ(even_sum_fact(2, 2), 2);
+}
+
+TEST(FactorialEvenSum, NUMS_NOT_EQUALS){
+    EXPECT_EQ(even_sum_fact(0, 10), 3669867);
+}
+
+TEST(FactorialEvenSum_NUMS_NOT_EQUALS_Test, BIGGEST_NUMS){
+    EXPECT_EQ(even_sum_fact(0, 20), 2439325392333218667);
+}
+#+end_src
+
+Сборщик (Cmakelists.txt):
+#+begin_src cmake
+cmake_minimum_required(VERSION 3.14)
+
+project(UNIT_tests)
+
+add_subdirectory(.\\googletest)
+include_directories(${gtest_SOURCE_DIR}\\include ${gtest_SOURCE_DIR})
+set(CMAKE_CXX_STANDARD 17)
+
+enable_testing()
+
+add_executable(
+        my_test
+        tests.cpp
+)
+target_link_libraries(
+        my_test
+        gtest
+        gtest_main
+)
+target_link_libraries(
+        my_test
+        gmock
+        gmock_main
+)
+#+end_src
+
+Результаты тестирования:
+
+#+DOWNLOADED: screenshot @ 2022-05-12 14:56:08
+[[file:images/20220512-145608_screenshot.png]]
