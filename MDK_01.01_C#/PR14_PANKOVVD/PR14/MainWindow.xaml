@@ -1,0 +1,77 @@
+﻿<Window x:Class="PR14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Icon="pack://application:,,,/res/car.png"
+        Title="CarFactory" MinHeight="400" MinWidth="700" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <DockPanel Background="{StaticResource PrimaryColor}">
+            <Button Height="24" Width="24" VerticalAlignment="Center" Margin="16, 0, 0,0" BorderThickness="0"
+                    Background="Transparent" Click="ButtonBase_OnClick" DockPanel.Dock="Left">
+                <Image Source="pack://application:,,,/res/menu.png" />
+            </Button>
+            <TextBlock Name="AppBar" VerticalAlignment="Center" TextAlignment="Center" FontFamily="Roboto"
+                       FontWeight="Regular"
+                       FontSize="20" DockPanel.Dock="Right">
+                Add cars
+            </TextBlock>
+        </DockPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Name="NavViewColumn" MinWidth="175" MaxWidth="300" Width="1*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Name="NavView" Margin="12" HorizontalAlignment="Stretch" Orientation="Vertical">
+                <ToggleButton Name="AddCar" Checked="ToggleButton_OnChecked" Unchecked="AddCar_OnUnchecked" Height="32"
+                              IsChecked="True" HorizontalContentAlignment="Left">
+                    <DockPanel>
+                        <Image Margin="20, 0, 0, 0" Width="24" Source="pack://application:,,,/res/wcar.png" />
+                        <TextBlock Margin="20, 0, 0, 0" Style="{StaticResource PrimaryText}" Foreground="White"
+                                   VerticalAlignment="Center"
+                                   FontSize="16">
+                            Add cars
+                        </TextBlock>
+                    </DockPanel>
+                </ToggleButton>
+                <ToggleButton Checked="ToggleButton_OnChecked" Unchecked="AddCar_OnUnchecked" Name="EditCars"
+                              Height="32" Margin="0, 12, 0, 0" IsChecked="False" HorizontalContentAlignment="Left">
+                    <DockPanel>
+                        <Image Margin="20, 0, 0, 0" Width="24" Source="pack://application:,,,/res/settings.png" />
+                        <TextBlock Margin="20, 0, 0, 0" Style="{StaticResource PrimaryText}" VerticalAlignment="Center"
+                                   FontSize="16">
+                            Edit cars
+                        </TextBlock>
+                    </DockPanel>
+                </ToggleButton>
+                <ToggleButton Checked="ToggleButton_OnChecked" Unchecked="AddCar_OnUnchecked" Name="Certificates"
+                              Height="32" Margin="0, 12, 0, 0" IsChecked="False" HorizontalContentAlignment="Left">
+                    <DockPanel>
+                        <Image Margin="20, 0, 0, 0" Width="24" Source="pack://application:,,,/res/description.png" />
+                        <TextBlock Margin="20, 0, 0, 0" Style="{StaticResource PrimaryText}" VerticalAlignment="Center"
+                                   FontSize="16">
+                            Сertificates
+                        </TextBlock>
+                    </DockPanel>
+                </ToggleButton>
+            </StackPanel>
+            <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
+            <Frame NavigationUIVisibility="Hidden" Grid.Column="2" Name="Frame" HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch" Source="AddCar.xaml" />
+
+        </Grid>
+        <StatusBar Grid.Row="2" Background="{StaticResource SecondaryColor}">
+            <StatusBarItem> Сегодня: </StatusBarItem>
+            <StatusBarItem Name="StatusDate" />
+            <StatusBarItem>Текущее время: </StatusBarItem>
+            <StatusBarItem Name="StatusTime" />
+        </StatusBar>
+    </Grid>
+</Window>
