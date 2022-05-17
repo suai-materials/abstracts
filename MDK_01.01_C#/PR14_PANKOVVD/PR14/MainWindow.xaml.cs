@@ -18,6 +18,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using CarEngine;
 
 namespace PR14
 {
@@ -84,12 +85,12 @@ namespace PR14
                     switch (btn.Name)
                     {
                         case "AddCar":
-                            Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+                            Frame.Navigate(new AddCar());
                             break;
                         case "Certificates":
                             if (File.Exists("1.txt") && File.ReadAllText("1.txt").Contains("~"))
                             {
-                                Frame.Source = new Uri(btn.Name + ".xaml", UriKind.Relative);
+                                Frame.Navigate(new Certificates());
                             }
                             else
                             {

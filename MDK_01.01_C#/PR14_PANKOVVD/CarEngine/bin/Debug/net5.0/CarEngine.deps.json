@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "PR14/1.0.0": {
-        "dependencies": {
-          "CarEngine": "1.0.0"
-        },
-        "runtime": {
-          "PR14.dll": {}
-        }
-      },
       "CarEngine/1.0.0": {
         "runtime": {
           "CarEngine.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "PR14/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CarEngine/1.0.0": {
       "type": "project",
       "serviceable": false,

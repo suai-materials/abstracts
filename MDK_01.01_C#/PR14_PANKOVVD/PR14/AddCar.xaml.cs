@@ -1,4 +1,5 @@
-﻿using System;
+﻿#nullable enable
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,14 +8,21 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using CarEngine;
 
 namespace PR14
 {
     public partial class AddCar : Page
     {
+        private Engine _currentEngine = new Engine();
         public AddCar()
         {
             InitializeComponent();
+        }
+        public AddCar(Engine engine) : this()
+        {
+            _currentEngine = engine;
+            DataContext = engine;
             if (!File.Exists("1.txt"))
             {
                 File.Create("1.txt");
