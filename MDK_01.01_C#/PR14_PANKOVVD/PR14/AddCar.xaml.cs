@@ -14,19 +14,18 @@ namespace PR14
 {
     public partial class AddCar : Page
     {
-        private Engine _currentEngine = new Engine();
+        private Engine _currentEngine = new();
+
         public AddCar()
         {
             InitializeComponent();
+            DataContext = _currentEngine;
         }
+
         public AddCar(Engine engine) : this()
         {
             _currentEngine = engine;
             DataContext = engine;
-            if (!File.Exists("1.txt"))
-            {
-                File.Create("1.txt");
-            }
         }
 
         private static readonly Regex URegexNotFloat = new("[^0-9]+");
@@ -47,26 +46,15 @@ namespace PR14
             var t = new List<RadioButton>() {rb3, rb5, rb10, rb15};
             t = t.Where(b => b.IsChecked is true).ToList();
 
-            if (FactoryName.Text == "" || AutoType.Text == "" ||
-                ((MarkType.SelectedItem as StackPanel)!.Children[1] as TextBlock)!.Text == "" || Quantity.Text == "" ||
-                Price.Text == "" || Date.Text == "" || t.Count == 0)
+            if (FactoryName.Text.Trim() == "" || AutoType.Text.Trim() == "" ||
+                ((MarkType.SelectedItem as StackPanel)!.Children[1] as TextBlock)!.Text.Trim() == "" ||
+                Quantity.Text.Trim() == "" ||
+                Price.Text.Trim() == "" || Date.Text.Trim() == "" || t.Count == 0)
             {
                 MessageBox.Show("Вы что-то не ввели");
                 return;
             }
-
-            string save;
-            using (var fileR = new StreamReader("1.txt"))
-            {
-                save = fileR.ReadToEnd();
-            }
-            
-            using (var file = new StreamWriter("1.txt"))
-            {
-                file.Write(save);
-                file.WriteLine(
-                    $"{FactoryName.Text}~{AutoType.Text}~{((MarkType.SelectedItem as StackPanel)!.Children[1] as TextBlock)!.Text}~{Quantity.Text}~{Price.Text}~{Date.Text}~{t[0].Content}");
-            }
+            EngineData.EngineList.Add(_currentEngine);
         }
     }
 }

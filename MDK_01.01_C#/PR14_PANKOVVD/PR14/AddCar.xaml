@@ -4,14 +4,16 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:system="clr-namespace:System;assembly=mscorlib"
-      xmlns:model = "clr-namespace:CarEngine;assembly=CarEngine"
+      xmlns:model="clr-namespace:CarEngine;assembly=CarEngine"
       mc:Ignorable="d"
+      MinHeight="250"
+      MinWidth="500"
       Title="AddCar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
     <!--Для корректной работы убери Height и Width, предпросмотра не будет, но адаптивность будет сохраняться-->
     <Page.Resources>
         <ObjectDataProvider x:Key="CarType" MethodName="GetValues" ObjectType="{x:Type system:Enum}">
             <ObjectDataProvider.MethodParameters>
-                <x:Type TypeName="model:CarType"></x:Type>
+                <x:Type TypeName="model:CarType" />
             </ObjectDataProvider.MethodParameters>
         </ObjectDataProvider>
     </Page.Resources>
@@ -39,7 +41,8 @@
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
                        VerticalAlignment="Center"
                        DockPanel.Dock="Left" Text="Вид выпускаемых автомобилей: " TextWrapping="Wrap" />
-            <ComboBox Name="AutoType" SelectedItem="{Binding CarType}" ItemsSource="{ Binding Source={StaticResource CarType}}" />
+            <ComboBox Name="AutoType" SelectedItem="{Binding CarType}"
+                      ItemsSource="{ Binding Source={StaticResource CarType}}" />
         </DockPanel>
         <DockPanel VerticalAlignment="Center" Grid.Row="2" Margin="0, 20, 0, 0">
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
@@ -77,7 +80,8 @@
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
                        VerticalAlignment="Center"
                        DockPanel.Dock="Left" Text="Количество выпущенных: " />
-            <TextBox Text="{Binding QuantityOfCars}"  Name="Quantity" Width="90" PreviewTextInput="UIElement_OnPreviewTextInput" FontSize="14"
+            <TextBox Text="{Binding QuantityOfCars}" Name="Quantity" Width="90"
+                     PreviewTextInput="UIElement_OnPreviewTextInput" FontSize="14"
                      Margin="10, 0, 0, 0" />
         </DockPanel>
         <DockPanel Grid.Column="2" Grid.Row="0" VerticalAlignment="Center">
@@ -89,7 +93,8 @@
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
                        VerticalAlignment="Center"
                        DockPanel.Dock="Left" Text="Дата составления: " />
-            <DatePicker Name="Date" FontFamily="Roboto" FontSize="14" FontWeight="Regular" SelectedDate="{Binding Date}" />
+            <DatePicker Name="Date" FontFamily="Roboto" FontSize="14" FontWeight="Regular"
+                        SelectedDate="{Binding Date}" />
         </DockPanel>
         <DockPanel Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" Margin="0, 20, 0, 0">
             <TextBlock Margin="7, 0, 0, 0" Style="{StaticResource PrimaryText}" FontSize="14"
@@ -106,8 +111,8 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <RadioButton Name="rb3" Content="3 %" />
-                <RadioButton Name="rb5" Grid.Row="1" Content="5 %" />
-                <RadioButton Name="rb10" Grid.Column="2" Content="10 %" />
+                <RadioButton Name="rb5" Grid.Row="1" Grid.Column="0" Content="5 %" />
+                <RadioButton Name="rb10" Grid.Row="0" Grid.Column="2" Content="10 %" />
                 <RadioButton Name="rb15" Grid.Row="1" Grid.Column="2" Content="15 %" />
             </Grid>
         </DockPanel>

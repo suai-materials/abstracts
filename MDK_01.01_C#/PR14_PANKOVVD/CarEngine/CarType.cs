@@ -1,6 +1,6 @@
 ﻿namespace CarEngine;
 
-public enum CarType // Очень нужное перечесление, неправда ли?
+public enum CarType // Очень нужное перечисление, неправда ли?
 {
     Грузовые,
     Легковые

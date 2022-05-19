@@ -1,5 +1,5 @@
 ﻿namespace CarEngine;
 
-public class EngineList: List<Engine>
+public class EngineList : List<Engine>
 {
 }

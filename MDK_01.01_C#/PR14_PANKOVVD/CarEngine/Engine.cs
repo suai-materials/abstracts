@@ -3,15 +3,15 @@
 public record Engine
 {
     private int _id;
-    private String _name = "";
-    public CarType TypeOfProducedCars;
-    public string CarModel = "";
-    public uint Price;
-    public DateTime Date;
-    public char Markup;
-    public uint QuantityOfCars;
+    private string _name;
+    public CarType TypeOfProducedCars { get; set; }
+    public string Mark { get; set; }
+    public uint Price { get; set; }
+    public DateTime Date { get; set; }
+    public char Markup { get; set; }
+    public uint QuantityOfCars { get; set; }
 
-    public String Name
+    public string Name
     {
         get => _name;
         set
@@ -21,21 +21,16 @@ public record Engine
             _name = value;
         }
     }
-    
-    public int Id
-    {
-        get => _id;
-    }
+
+    public int Id => _id;
 
     public Engine()
     {
-        
     }
-    
-    public Engine(string name, CarType typeOfProducedCars, string carModel, uint price, DateTime date, char markup)
+
+    public Engine(string name, CarType typeOfProducedCars, string mark, uint price, DateTime date, char markup)
     {
-        (Name, TypeOfProducedCars, CarModel, Price, Date, Markup) = (name, typeOfProducedCars, carModel, price, date, markup);
+        (Name, TypeOfProducedCars, Mark, Price, Date, Markup) =
+            (name, typeOfProducedCars, mark, price, date, markup);
     }
-    
-    
 }
