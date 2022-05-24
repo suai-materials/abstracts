@@ -1,0 +1,112 @@
+#+TITLE: Лабораторная работа № 6. Тестирование производительности.
+
+Цель работы: научиться определять время работы программы на примере алгоритмов сортировки массивов.
+
+Вариант 1. 
+
+Сравнить время работы следующих алгоритмов:
+1. Сортировка массива методом выбора
+2. "Шейкерная сортировка" массива
+Зафиксировать время для размерностей массива 100, 1000, 10000, 100000.
+
+Листинг:
+#+begin_src c++
+#include <iostream>
+#include <time.h>
+
+#define N 100000
+
+using namespace std;
+
+
+
+
+void shakerSort(int arr[N]) {
+    int control = N - 1;
+    int left  = 0;
+    int right = N - 1;
+    int temp;
+    do {
+        for (int i = left; i < right; i++) {
+            if (arr[i] > arr[i + 1]) {
+                std::swap(arr[i], arr[i + 1]);
+                control = i;
+            }
+        }
+        right = control;
+        for (int i = right; i > left; i--) {
+            if (arr[i] < arr[i - 1]) {
+                std::swap(arr[i], arr[i - 1]);
+                control = i;
+            }
+        }
+        left = control;
+    } while (left < right);
+}
+
+void selection_sort(int arr[N])
+{
+    for (int i = 0; i < N - 1; i++)
+    {
+        int min_index = i;
+        for (int j = i + 1; j < N; j++)
+        {
+            if (arr[j] < arr[min_index])
+            {
+                min_index = j;
+            }
+        }
+        if (min_index != i)
+        {
+            swap(arr[i], arr[min_index]);
+        }
+    }
+}
+
+void print_array(int arr[N]){
+    for (int i = 0; i < N; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[N];
+    for (int i = 0; i < N; i++) {
+        arr[i] = rand() % N;
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+    int copy_arr[N];
+    copy(begin(arr), end(arr), begin(copy_arr));
+    clock_t start = clock();
+    selection_sort(arr);
+    clock_t end = clock();
+    double sec = (double)(end - start) / CLOCKS_PER_SEC;
+    cout << "Selection sorting: " << sec << " sec. " << endl;
+    start = clock();
+    shakerSort(copy_arr);
+    end = clock();
+    sec = (double)(end - start) / CLOCKS_PER_SEC;
+    cout << "Shaker sorting: " << sec << " sec. ";
+}
+#+end_src
+
+Тесты:
+- 100 элементов:
+  #+DOWNLOADED: screenshot @ 2022-05-24 10:04:02
+  [[file:images/20220524-100402_screenshot.png]]
+
+- 1000 элементов:
+  #+DOWNLOADED: screenshot @ 2022-05-24 10:05:11
+  [[file:images/20220524-100511_screenshot.png]]
+
+- 10000 элементов:
+  #+DOWNLOADED: screenshot @ 2022-05-24 10:05:59
+  [[file:images/20220524-100559_screenshot.png]]
+
+- 100000
+
+#+DOWNLOADED: screenshot @ 2022-05-24 10:07:36
+[[file:images/20220524-100736_screenshot.png]]
+
+Вывод: Шейкерная сортировка менее эффективна чем сортировка выбором
