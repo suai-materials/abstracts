@@ -8,8 +8,12 @@ public record Engine
     public string Mark { get; set; }
     public uint Price { get; set; }
     public DateTime Date { get; set; }
-    public char Markup { get; set; }
+    public byte Markup { get; set; }
+
     public uint QuantityOfCars { get; set; }
+    // public uint Percent { get; set; }
+
+    public double Cost => Price * QuantityOfCars * (1 + Markup / 100f);
 
     public string Name
     {
@@ -28,7 +32,7 @@ public record Engine
     {
     }
 
-    public Engine(string name, CarType typeOfProducedCars, string mark, uint price, DateTime date, char markup)
+    public Engine(string name, CarType typeOfProducedCars, string mark, uint price, DateTime date, byte markup)
     {
         (Name, TypeOfProducedCars, Mark, Price, Date, Markup) =
             (name, typeOfProducedCars, mark, price, date, markup);

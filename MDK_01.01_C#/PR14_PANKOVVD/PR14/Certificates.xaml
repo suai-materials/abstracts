@@ -24,25 +24,39 @@
                    Grid.ColumnSpan="3" Text="{Binding Name}" />
         <StackPanel Grid.Row="1" Orientation="Vertical">
             <StackPanel Orientation="Horizontal">
-                <TextBlock FontSize="15" Name="Type" Style="{StaticResource PrimaryText}" Text="Вид машин: " />
+                <TextBlock FontSize="15" Style="{StaticResource PrimaryText}" Text="Вид машин: " />
                 <TextBlock FontSize="15" Style="{StaticResource PrimaryText}" Text="{Binding TypeOfProducedCars}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock FontSize="15" Name="Mark" Style="{StaticResource PrimaryText}" Text="Марка машин: " />
+                <TextBlock FontSize="15" Style="{StaticResource PrimaryText}" Text="Марка машин: " />
                 <TextBlock FontSize="15" Style="{StaticResource PrimaryText}" Text="{Binding Mark}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock FontSize="15" Name="Price" Style="{StaticResource PrimaryText}" Text="Марка машин: " />
+                <TextBlock FontSize="15" Style="{StaticResource PrimaryText}" Text="Цена одной машины: " />
                 <TextBlock FontSize="15" Style="{StaticResource PrimaryText}" Text="{Binding Price}" />
             </StackPanel>
         </StackPanel>
         <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Vertical">
-            <TextBlock TextAlignment="Right" FontSize="15" Name="Qnt" Style="{StaticResource PrimaryText}"
-                       Text="Количество: " />
-            <TextBlock TextAlignment="Right" FontSize="15" Name="Percent" Style="{StaticResource PrimaryText}"
-                       Text="Наценка: " />
-            <TextBlock TextAlignment="Right" FontSize="15" Name="Cost" Style="{StaticResource PrimaryText}"
-                       Text="Стоимость: " />
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <TextBlock FontSize="15" Style="{StaticResource PrimaryText}"
+                           Text="Количество: " />
+                <TextBlock TextAlignment="Right" FontSize="15" Name="Qnt" Style="{StaticResource PrimaryText}"
+                           Text="{Binding QuantityOfCars}" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <TextBlock TextAlignment="Right" FontSize="15" Style="{StaticResource PrimaryText}"
+                           Text="Наценка: " />
+                <TextBlock TextAlignment="Right" FontSize="15" Name="Percent" Style="{StaticResource PrimaryText}"
+                           Text="{Binding Markup}" />
+                <TextBlock TextAlignment="Right" FontSize="15" Style="{StaticResource PrimaryText}"
+                           Text=" %" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <TextBlock TextAlignment="Right" FontSize="15" Style="{StaticResource PrimaryText}"
+                           Text="Стоимость: " />
+                <TextBlock TextAlignment="Right" FontSize="15" Name="Cost" Style="{StaticResource PrimaryText}"
+                           Text="{Binding Cost}" />
+            </StackPanel>
         </StackPanel>
         <StackPanel Grid.Column="2" Grid.Row="2" VerticalAlignment="Bottom" Orientation="Horizontal">
             <TextBlock VerticalAlignment="Center" Name="Date" Style="{StaticResource PrimaryText}">Дата:</TextBlock>

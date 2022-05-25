@@ -54,6 +54,9 @@ namespace PR14
                 MessageBox.Show("Вы что-то не ввели");
                 return;
             }
+
+            _currentEngine.Markup = byte.Parse(t[0].Content.ToString().Substring(0, 2));
+            _currentEngine.Mark = MarkType.Items[0].ToString();
             EngineData.EngineList.Add(_currentEngine);
         }
     }

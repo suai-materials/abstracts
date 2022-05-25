@@ -15,7 +15,9 @@ namespace PR14
         public Certificates()
         {
             InitializeComponent();
-            DataContext = EngineData.EngineList[0];
+            if (EngineData.EngineList.Count != 0)
+                DataContext = EngineData.EngineList[0];
+            else ;
         }
 
         public Certificates(int indexNow) : this()

@@ -12,7 +12,7 @@
         </Resource>
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\CarEngine\CarEngine.csproj" />
+        <ProjectReference Include="..\CarEngine\CarEngine.csproj"/>
     </ItemGroup>
 
 </Project>
