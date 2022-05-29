@@ -32,6 +32,8 @@ namespace PR14
         public MainWindow()
         {
             InitializeComponent();
+            NavigationManager.Frame = Frame;
+            NavigationManager.MainWindow = this;
             var timer = new DispatcherTimer();
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Tick += (_, _) =>
@@ -85,7 +87,7 @@ namespace PR14
                     switch (btn.Name)
                     {
                         case "AddCar":
-                            Frame.Navigate(new AddCar());
+                            Frame.Navigate(new AddEngine());
                             break;
                         case "Certificates":
                             if (EngineData.EngineList.Count > 0)
@@ -162,6 +164,16 @@ namespace PR14
         {
             if (Frame.CanGoBack)
                 Frame.GoBack();
+        }
+
+        private void Save_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Import_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

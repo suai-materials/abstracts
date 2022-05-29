@@ -21,20 +21,21 @@
                     IsCancel="True" Click="Exit_OnClick">
                 <Image Margin="2" Source="pack://application:,,,/res/clear.png" />
             </Button>
-            <Button ToolTip="Import" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right">
+            <Button ToolTip="Import" Name="Import" Click="Import_OnClick" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right">
                 <Image Margin="2" Source="pack://application:,,,/res/save_alt.png" />
             </Button>
-            <Button ToolTip="Save" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right">
+            <Button Name="Save" Click="Save_OnClick" ToolTip="Save" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right">
                 <Image Margin="2" Source="pack://application:,,,/res/save.png" />
             </Button>
-            <Button ToolTip="Back" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right" Name="Back" Click="Back_OnClick">
-                <Image Source="pack://application:,,,/res/back.png" />
-            </Button>
+            <!--Кнопка возвращения назад-->
+            <!-- <Button ToolTip="Back" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right" Name="Back" Click="Back_OnClick"> -->
+            <!--     <Image Source="pack://application:,,,/res/back.png" /> -->
+            <!-- </Button> -->
             <TextBlock Margin="24, 0, 0, 0" Name="AppBar" VerticalAlignment="Center" TextAlignment="Center"
                        FontFamily="Roboto"
                        FontWeight="Regular"
                        FontSize="20" DockPanel.Dock="Right">
-                Add cars
+                Add engine
             </TextBlock>
 
 

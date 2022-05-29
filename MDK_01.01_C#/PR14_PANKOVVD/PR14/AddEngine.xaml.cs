@@ -12,20 +12,40 @@ using CarEngine;
 
 namespace PR14
 {
-    public partial class AddCar : Page
+    /* Да, я ужасный человек и не помещу это в отдельный файл,
+     как можно терпеть меня
+     */
+    public enum Mode
+    {
+        Add,
+        Edit
+    }
+
+    public partial class AddEngine : Page
     {
         private Engine _currentEngine = new();
+        private Mode _mode;
 
-        public AddCar()
+        public AddEngine()
         {
             InitializeComponent();
             DataContext = _currentEngine;
         }
 
-        public AddCar(Engine engine) : this()
+        public AddEngine(Engine engine, Mode mode = Mode.Add) : this()
         {
             _currentEngine = engine;
             DataContext = engine;
+            switch (mode)
+            {
+                case Mode.Add:
+                    break;
+                case Mode.Edit:
+                    NavigationManager.MainWindow.AppBar.Text = "Edit car";
+                    Back.Visibility = Visibility.Visible;
+                    ((Add.Content as StackPanel)?.Children[0] as TextBlock)!.Text = "Done";
+                    break;
+            }
         }
 
         private static readonly Regex URegexNotFloat = new("[^0-9]+");
@@ -41,7 +61,7 @@ namespace PR14
             e.Handled = URegex.IsMatch((sender as TextBox)!.Text);
         }
 
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        private void Add_OnClick(object sender, RoutedEventArgs e)
         {
             var t = new List<RadioButton>() {rb3, rb5, rb10, rb15};
             t = t.Where(b => b.IsChecked is true).ToList();
@@ -55,9 +75,21 @@ namespace PR14
                 return;
             }
 
-            _currentEngine.Markup = byte.Parse(t[0].Content.ToString()!.Substring(0, 2));
+            _currentEngine.Markup = t[0].Content.ToString();
             _currentEngine.Mark = ((MarkType.SelectedItem as StackPanel).Children[1] as TextBlock).Text;
-            EngineData.EngineList.AddEngine(_currentEngine);
+            if (_mode == Mode.Add)
+            {
+                EngineData.EngineList.AddEngine(_currentEngine);
+                _currentEngine = new Engine();
+                DataContext = _currentEngine;
+            }
+            else
+                NavigationManager.Frame.GoBack();
+        }
+
+        private void Back_OnClick(object sender, RoutedEventArgs e)
+        {
+            NavigationManager.Frame.GoBack();
         }
     }
 }

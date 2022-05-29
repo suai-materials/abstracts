@@ -8,6 +8,11 @@
         <SolidColorBrush x:Key="SecondaryColor" Color="#B0BEC5" />
         <SolidColorBrush x:Key="PrimaryTextColor" Color="#37474F" />
         <SolidColorBrush x:Key="SecondaryTextColor" Color="#FFFFFF" />
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Roboto" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+
         <Style TargetType="ToggleButton">
             <Setter Property="BorderThickness" Value="0" />
             <Style.Resources>
@@ -32,7 +37,8 @@
         <Style TargetType="Button">
             <Setter Property="BorderThickness" Value="0" />
             <Setter Property="Background" Value="{StaticResource SecondaryColor}" />
-            <Setter Property="Foreground" Value="#E3F2FD" />
+            <Setter Property="Foreground" Value="White" />
+            <!-- <Setter Property="Foreground" Value="#E3F2FD" /> -->
             <Style.Resources>
                 <Style TargetType="Border">
                     <Setter Property="Border.CornerRadius" Value="20,20, 20, 20" />

@@ -3,7 +3,9 @@
 public record Engine
 {
     private string _name;
+    private byte _markup;
     public uint? Id { get; set; }
+
 
     public string Name
     {
@@ -23,19 +25,23 @@ public record Engine
     public string Mark { get; set; }
 
     public DateTime Date { get; set; } = DateTime.Now;
-    public byte Markup { get; set; }
 
+    public string Markup
+    {
+        get => $"{_markup} %";
+        set => _markup = byte.Parse(value.Substring(0, 2));
+    }
 
     // public uint Percent { get; set; }
 
-    public double Cost => Math.Round(Price * QuantityOfCars * (1 + Markup / 100.0), 4);
+    public double Cost => Math.Round(Price * QuantityOfCars * (1 + _markup / 100.0), 4);
 
 
     public Engine()
     {
     }
 
-    public Engine(string name, CarType typeOfProducedCars, string mark, uint price, DateTime date, byte markup)
+    public Engine(string name, CarType typeOfProducedCars, string mark, uint price, DateTime date, string markup)
     {
         (Name, TypeOfProducedCars, Mark, Price, Date, Markup) =
             (name, typeOfProducedCars, mark, price, date, markup);
