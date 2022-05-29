@@ -17,11 +17,27 @@
                     Background="Transparent" Click="ButtonBase_OnClick" DockPanel.Dock="Left">
                 <Image Source="pack://application:,,,/res/menu.png" />
             </Button>
-            <TextBlock Name="AppBar" VerticalAlignment="Center" TextAlignment="Center" FontFamily="Roboto"
+            <Button ToolTip="Exit" Width="24" Height="24" DockPanel.Dock="Right" Margin="0, 0, 7, 0"
+                    IsCancel="True" Click="Exit_OnClick">
+                <Image Margin="2" Source="pack://application:,,,/res/clear.png" />
+            </Button>
+            <Button ToolTip="Import" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right">
+                <Image Margin="2" Source="pack://application:,,,/res/save_alt.png" />
+            </Button>
+            <Button ToolTip="Save" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right">
+                <Image Margin="2" Source="pack://application:,,,/res/save.png" />
+            </Button>
+            <Button ToolTip="Back" Margin="0, 0, 10, 0" Width="24" Height="24" DockPanel.Dock="Right" Name="Back" Click="Back_OnClick">
+                <Image Source="pack://application:,,,/res/back.png" />
+            </Button>
+            <TextBlock Margin="24, 0, 0, 0" Name="AppBar" VerticalAlignment="Center" TextAlignment="Center"
+                       FontFamily="Roboto"
                        FontWeight="Regular"
                        FontSize="20" DockPanel.Dock="Right">
                 Add cars
             </TextBlock>
+
+
         </DockPanel>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -64,7 +80,7 @@
             </StackPanel>
             <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" />
             <Frame NavigationUIVisibility="Hidden" Grid.Column="2" Name="Frame" HorizontalAlignment="Stretch"
-                   VerticalAlignment="Stretch" Source="AddCar.xaml" />
+                   VerticalAlignment="Stretch" Source="AddEngine.xaml" />
 
         </Grid>
         <StatusBar Grid.Row="2" Background="{StaticResource SecondaryColor}">

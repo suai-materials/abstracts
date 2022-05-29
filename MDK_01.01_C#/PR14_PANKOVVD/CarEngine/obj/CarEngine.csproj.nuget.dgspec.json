@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\CLionProjects\\abstracts-2\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj": {}
+    "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\CLionProjects\\abstracts-2\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj": {
+    "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\CLionProjects\\abstracts-2\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj",
+        "projectUniqueName": "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj",
         "projectName": "CarEngine",
-        "projectPath": "C:\\Users\\user\\CLionProjects\\abstracts-2\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\CLionProjects\\abstracts-2\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\obj\\",
+        "projectPath": "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\CarEngine.csproj",
+        "packagesPath": "C:\\Users\\pankSU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pankSU\\Documents\\abstracts\\MDK_01.01_C#\\PR14_PANKOVVD\\CarEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pankSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -73,6 +73,7 @@ namespace PR14
                     default:
                         break;
                 }
+
                 bi3.EndInit();
                 im.Source = bi3;
                 if (btn == it)
@@ -87,7 +88,7 @@ namespace PR14
                             Frame.Navigate(new AddCar());
                             break;
                         case "Certificates":
-                            if (File.Exists("1.txt") && File.ReadAllText("1.txt").Contains("~"))
+                            if (EngineData.EngineList.Count > 0)
                             {
                                 Frame.Navigate(new Certificates());
                             }
@@ -96,6 +97,10 @@ namespace PR14
                                 MessageBox.Show("Надо добавить информацию в Add cars. Для того чтобы продолжить");
                                 AddCar.IsChecked = true;
                             }
+
+                            break;
+                        case "EditCars":
+                            Frame.Navigate(new EngineListViewer());
                             break;
                         default:
                             MessageBox.Show("Это появится в будущем.");
@@ -108,6 +113,7 @@ namespace PR14
 
                     continue;
                 }
+
                 ((btn.Content as DockPanel)!.Children[1] as TextBlock).Foreground =
                     Application.Current.Resources["PrimaryTextColor"] as SolidColorBrush;
                 btn.IsChecked = false;
@@ -124,6 +130,7 @@ namespace PR14
                 if (btn.IsChecked is true)
                     return;
             }
+
             it.IsChecked = true;
         }
 
@@ -143,6 +150,18 @@ namespace PR14
             NavViewColumn.MinWidth = 175;
             foreach (var btn in navMenu)
                 ((btn.Content as DockPanel).Children[0] as Image).Margin = new Thickness(20, 0, 0, 0);
+        }
+
+
+        private void Exit_OnClick(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void Back_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (Frame.CanGoBack)
+                Frame.GoBack();
         }
     }
 }

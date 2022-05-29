@@ -55,9 +55,9 @@ namespace PR14
                 return;
             }
 
-            _currentEngine.Markup = byte.Parse(t[0].Content.ToString().Substring(0, 2));
-            _currentEngine.Mark = MarkType.Items[0].ToString();
-            EngineData.EngineList.Add(_currentEngine);
+            _currentEngine.Markup = byte.Parse(t[0].Content.ToString()!.Substring(0, 2));
+            _currentEngine.Mark = ((MarkType.SelectedItem as StackPanel).Children[1] as TextBlock).Text;
+            EngineData.EngineList.AddEngine(_currentEngine);
         }
     }
 }

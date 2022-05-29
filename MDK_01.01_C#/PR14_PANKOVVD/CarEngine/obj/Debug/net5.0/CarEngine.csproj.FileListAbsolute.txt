@@ -22,3 +22,15 @@ C:\Users\user\CLionProjects\abstracts-2\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj
 C:\Users\user\CLionProjects\abstracts-2\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\refint\CarEngine.dll
 C:\Users\user\CLionProjects\abstracts-2\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.pdb
 C:\Users\user\CLionProjects\abstracts-2\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\ref\CarEngine.dll
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\bin\Debug\net5.0\CarEngine.deps.json
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\bin\Debug\net5.0\CarEngine.dll
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\bin\Debug\net5.0\CarEngine.pdb
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.csproj.AssemblyReference.cache
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.AssemblyInfoInputs.cache
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.AssemblyInfo.cs
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.csproj.CoreCompileInputs.cache
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.dll
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\refint\CarEngine.dll
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\CarEngine.pdb
+C:\Users\pankSU\Documents\abstracts\MDK_01.01_C#\PR14_PANKOVVD\CarEngine\obj\Debug\net5.0\ref\CarEngine.dll

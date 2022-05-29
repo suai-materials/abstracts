@@ -2,18 +2,8 @@
 
 public record Engine
 {
-    private int _id;
     private string _name;
-    public CarType TypeOfProducedCars { get; set; }
-    public string Mark { get; set; }
-    public uint Price { get; set; }
-    public DateTime Date { get; set; }
-    public byte Markup { get; set; }
-
-    public uint QuantityOfCars { get; set; }
-    // public uint Percent { get; set; }
-
-    public double Cost => Price * QuantityOfCars * (1 + Markup / 100f);
+    public uint? Id { get; set; }
 
     public string Name
     {
@@ -26,7 +16,20 @@ public record Engine
         }
     }
 
-    public int Id => _id;
+    public uint Price { get; set; }
+    public uint QuantityOfCars { get; set; }
+
+    public CarType TypeOfProducedCars { get; set; }
+    public string Mark { get; set; }
+
+    public DateTime Date { get; set; } = DateTime.Now;
+    public byte Markup { get; set; }
+
+
+    // public uint Percent { get; set; }
+
+    public double Cost => Math.Round(Price * QuantityOfCars * (1 + Markup / 100.0), 4);
+
 
     public Engine()
     {
