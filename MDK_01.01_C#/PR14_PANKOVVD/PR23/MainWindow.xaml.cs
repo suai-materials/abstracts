@@ -201,6 +201,7 @@ namespace PR14
                 using (var file = new StreamReader(File.Open(saveFileDialog.FileName, FileMode.Open)))
                 {
                     EngineData.EngineList = xmlSerializer.Deserialize(file) as EngineList;
+                    EditCars.IsChecked = true;
                 }
             }
         }

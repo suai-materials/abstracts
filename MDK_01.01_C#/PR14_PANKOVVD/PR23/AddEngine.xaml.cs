@@ -86,7 +86,7 @@ namespace PR14
             }
             else
             {
-                NavigationManager.Frame.GoBack();
+                NavigationManager.Frame.Navigate(new EngineListViewer());
             }
         }
 
