@@ -4,6 +4,7 @@ public record Engine
 {
     private string _name;
     private byte _markup;
+    private Mark _mark;
     public uint? Id { get; set; }
 
 
@@ -22,7 +23,12 @@ public record Engine
     public uint QuantityOfCars { get; set; }
 
     public CarType TypeOfProducedCars { get; set; }
-    public string Mark { get; set; }
+
+    public string Mark
+    {
+        get => Enum.GetName(_mark)!;
+        set => _mark = Enum.Parse<Mark>(value);
+    }
 
     public DateTime Date { get; set; } = DateTime.Now;
 
@@ -32,18 +38,5 @@ public record Engine
         set => _markup = byte.Parse(value.Substring(0, 2));
     }
 
-    // public uint Percent { get; set; }
-
     public double Cost => Math.Round(Price * QuantityOfCars * (1 + _markup / 100.0), 4);
-
-
-    public Engine()
-    {
-    }
-
-    public Engine(string name, CarType typeOfProducedCars, string mark, uint price, DateTime date, string markup)
-    {
-        (Name, TypeOfProducedCars, Mark, Price, Date, Markup) =
-            (name, typeOfProducedCars, mark, price, date, markup);
-    }
 }

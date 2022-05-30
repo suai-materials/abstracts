@@ -17,6 +17,7 @@ public class EngineList : List<Engine>
         Add(engine);
     }
 
+    // Обновление завода
     public void UpdateEngine(Engine engine)
     {
         this[IndexOf(Find(engine1 => engine1.Id == engine.Id)!)] = engine;

@@ -1,0 +1,56 @@
+﻿<Page x:Class="PR14.EngineListViewer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      d:DesignHeight="400"
+      d:DesignWidth="800"
+      Title="EngineListViewer">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <DataGrid Margin="5" Name="GridEngineList" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="0.5*" Header="Id" Binding="{Binding Id}" />
+                    <DataGridTextColumn Width="2*" Header="Name" Binding="{Binding Name}" />
+                    <DataGridTextColumn Width="1*" Header="Type of produced cars"
+                                        Binding="{Binding TypeOfProducedCars}" />
+                    <DataGridTextColumn Width="1*" Header="Mark" Binding="{Binding Mark}" />
+                    <DataGridTextColumn Width="1*" Header="Date" Binding="{Binding Date}" />
+                    <DataGridTextColumn Width="0.5*" Header="Markup" Binding="{Binding Markup}" />
+                    <DataGridTextColumn Width="1*" Header="Price" Binding="{Binding Price}" />
+                    <DataGridTextColumn Width="0.5*" Header="Quantity of cars" Binding="{Binding QuantityOfCars}" />
+                    <DataGridTextColumn Width="1*" Header="Cost" Binding="{Binding Cost}" />
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name="Edit" Click="Edit_OnClick">
+                                    <Image Margin="5" Width="16" Height="16"
+                                           Source="pack://application:,,,/res/edit.png" />
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <DockPanel Margin="5">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>Общая стоимость, со всех заводов: </TextBlock>
+                        <TextBlock Text="{Binding Cost}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>Средняя стоимость: </TextBlock>
+                        <TextBlock Text="{Binding MiddleCost}" />
+                    </StackPanel>
+                </StackPanel>
+                <Button Name="Delete" Click="Delete_OnClick" Width="100" Height="30" HorizontalAlignment="Right">
+                    Удалить
+                </Button>
+            </DockPanel>
+
+
+        </StackPanel>
+    </Grid>
+</Page>
